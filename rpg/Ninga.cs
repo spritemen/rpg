@@ -14,7 +14,6 @@ namespace rpg
             this.Power = power;
             this.Armor = armor;
             this.Evasion = evasion;
-
         }
 
         public override string Skill1(List<Charecter> targets)
