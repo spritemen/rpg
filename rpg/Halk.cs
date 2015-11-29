@@ -32,6 +32,7 @@ namespace rpg
             if (this.Mp >= 300)
             {
                 this.Power += 5;
+                targets[0].Hp -= this.Power;
                 Mp -= 300;
                 return "Халк разозлился!";
             }

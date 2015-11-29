@@ -29,7 +29,7 @@ namespace rpg
         {
             if (this.Mp >= 20)
             {
-                this.Mp += 2;
+                this.Armor += 2;
                 Mp -= 20;
                 return "М... Ещё один шлем. Да я скоро буду непобедим!";
             }
