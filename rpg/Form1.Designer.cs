@@ -509,112 +509,112 @@
             // 
             // progressBar2
             // 
-            this.progressBar2.Location = new System.Drawing.Point(517, 184);
+            this.progressBar2.Location = new System.Drawing.Point(686, 501);
             this.progressBar2.Name = "progressBar2";
             this.progressBar2.Size = new System.Drawing.Size(100, 23);
             this.progressBar2.TabIndex = 42;
             // 
             // progressBar3
             // 
-            this.progressBar3.Location = new System.Drawing.Point(517, 184);
+            this.progressBar3.Location = new System.Drawing.Point(686, 475);
             this.progressBar3.Name = "progressBar3";
             this.progressBar3.Size = new System.Drawing.Size(100, 23);
             this.progressBar3.TabIndex = 43;
             // 
             // progressBar4
             // 
-            this.progressBar4.Location = new System.Drawing.Point(517, 184);
+            this.progressBar4.Location = new System.Drawing.Point(783, 413);
             this.progressBar4.Name = "progressBar4";
             this.progressBar4.Size = new System.Drawing.Size(100, 23);
             this.progressBar4.TabIndex = 44;
             // 
             // progressBar5
             // 
-            this.progressBar5.Location = new System.Drawing.Point(517, 184);
+            this.progressBar5.Location = new System.Drawing.Point(783, 386);
             this.progressBar5.Name = "progressBar5";
             this.progressBar5.Size = new System.Drawing.Size(100, 23);
             this.progressBar5.TabIndex = 45;
             // 
             // progressBar6
             // 
-            this.progressBar6.Location = new System.Drawing.Point(517, 184);
+            this.progressBar6.Location = new System.Drawing.Point(564, 412);
             this.progressBar6.Name = "progressBar6";
             this.progressBar6.Size = new System.Drawing.Size(100, 23);
             this.progressBar6.TabIndex = 46;
             // 
             // progressBar7
             // 
-            this.progressBar7.Location = new System.Drawing.Point(517, 184);
+            this.progressBar7.Location = new System.Drawing.Point(565, 387);
             this.progressBar7.Name = "progressBar7";
             this.progressBar7.Size = new System.Drawing.Size(100, 23);
             this.progressBar7.TabIndex = 47;
             // 
             // progressBar8
             // 
-            this.progressBar8.Location = new System.Drawing.Point(517, 184);
+            this.progressBar8.Location = new System.Drawing.Point(786, 325);
             this.progressBar8.Name = "progressBar8";
             this.progressBar8.Size = new System.Drawing.Size(100, 23);
             this.progressBar8.TabIndex = 48;
             // 
             // progressBar9
             // 
-            this.progressBar9.Location = new System.Drawing.Point(517, 184);
+            this.progressBar9.Location = new System.Drawing.Point(786, 294);
             this.progressBar9.Name = "progressBar9";
             this.progressBar9.Size = new System.Drawing.Size(100, 23);
             this.progressBar9.TabIndex = 49;
             // 
             // progressBar10
             // 
-            this.progressBar10.Location = new System.Drawing.Point(517, 184);
+            this.progressBar10.Location = new System.Drawing.Point(565, 325);
             this.progressBar10.Name = "progressBar10";
             this.progressBar10.Size = new System.Drawing.Size(100, 23);
             this.progressBar10.TabIndex = 50;
             // 
             // progressBar11
             // 
-            this.progressBar11.Location = new System.Drawing.Point(517, 184);
+            this.progressBar11.Location = new System.Drawing.Point(565, 299);
             this.progressBar11.Name = "progressBar11";
             this.progressBar11.Size = new System.Drawing.Size(100, 23);
             this.progressBar11.TabIndex = 51;
             // 
             // progressBar12
             // 
-            this.progressBar12.Location = new System.Drawing.Point(517, 184);
+            this.progressBar12.Location = new System.Drawing.Point(202, 499);
             this.progressBar12.Name = "progressBar12";
             this.progressBar12.Size = new System.Drawing.Size(100, 23);
             this.progressBar12.TabIndex = 52;
             // 
             // progressBar13
             // 
-            this.progressBar13.Location = new System.Drawing.Point(517, 184);
+            this.progressBar13.Location = new System.Drawing.Point(202, 473);
             this.progressBar13.Name = "progressBar13";
             this.progressBar13.Size = new System.Drawing.Size(100, 23);
             this.progressBar13.TabIndex = 53;
             // 
             // progressBar14
             // 
-            this.progressBar14.Location = new System.Drawing.Point(517, 184);
+            this.progressBar14.Location = new System.Drawing.Point(283, 412);
             this.progressBar14.Name = "progressBar14";
             this.progressBar14.Size = new System.Drawing.Size(100, 23);
             this.progressBar14.TabIndex = 54;
             // 
             // progressBar15
             // 
-            this.progressBar15.Location = new System.Drawing.Point(517, 184);
+            this.progressBar15.Location = new System.Drawing.Point(283, 386);
             this.progressBar15.Name = "progressBar15";
             this.progressBar15.Size = new System.Drawing.Size(100, 23);
             this.progressBar15.TabIndex = 55;
             // 
             // progressBar16
             // 
-            this.progressBar16.Location = new System.Drawing.Point(517, 184);
+            this.progressBar16.Location = new System.Drawing.Point(100, 412);
             this.progressBar16.Name = "progressBar16";
             this.progressBar16.Size = new System.Drawing.Size(100, 23);
             this.progressBar16.TabIndex = 56;
             // 
             // progressBar17
             // 
-            this.progressBar17.Location = new System.Drawing.Point(517, 184);
+            this.progressBar17.Location = new System.Drawing.Point(99, 387);
             this.progressBar17.Name = "progressBar17";
             this.progressBar17.Size = new System.Drawing.Size(100, 23);
             this.progressBar17.TabIndex = 57;
@@ -635,7 +635,7 @@
             // 
             // progressBar20
             // 
-            this.progressBar20.Location = new System.Drawing.Point(279, 318);
+            this.progressBar20.Location = new System.Drawing.Point(275, 319);
             this.progressBar20.Name = "progressBar20";
             this.progressBar20.Size = new System.Drawing.Size(100, 26);
             this.progressBar20.TabIndex = 60;
@@ -645,22 +645,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(900, 547);
-            this.Controls.Add(this.progressBar17);
-            this.Controls.Add(this.progressBar16);
-            this.Controls.Add(this.progressBar15);
-            this.Controls.Add(this.progressBar14);
-            this.Controls.Add(this.progressBar13);
-            this.Controls.Add(this.progressBar12);
-            this.Controls.Add(this.progressBar11);
-            this.Controls.Add(this.progressBar10);
-            this.Controls.Add(this.progressBar9);
-            this.Controls.Add(this.progressBar8);
-            this.Controls.Add(this.progressBar7);
-            this.Controls.Add(this.progressBar6);
-            this.Controls.Add(this.progressBar5);
-            this.Controls.Add(this.progressBar4);
-            this.Controls.Add(this.progressBar3);
-            this.Controls.Add(this.progressBar2);
             this.Controls.Add(this.label_h2m);
             this.Controls.Add(this.label_h2h);
             this.Controls.Add(this.label_h2a);
@@ -686,7 +670,6 @@
             this.Controls.Add(this.label_a1h);
             this.Controls.Add(this.label_a1a);
             this.Controls.Add(this.label_t1m);
-            this.Controls.Add(this.label_t1h);
             this.Controls.Add(this.label_t1a);
             this.Controls.Add(this.label_n1a);
             this.Controls.Add(this.button10);
@@ -701,11 +684,28 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.progressBar20);
-            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.label_n1h);
             this.Controls.Add(this.progressBar18);
-            this.Controls.Add(this.progressBar19);
             this.Controls.Add(this.label_n1m);
+            this.Controls.Add(this.label_t1h);
+            this.Controls.Add(this.progressBar1);
+            this.Controls.Add(this.progressBar19);
+            this.Controls.Add(this.progressBar17);
+            this.Controls.Add(this.progressBar16);
+            this.Controls.Add(this.progressBar15);
+            this.Controls.Add(this.progressBar14);
+            this.Controls.Add(this.progressBar13);
+            this.Controls.Add(this.progressBar12);
+            this.Controls.Add(this.progressBar11);
+            this.Controls.Add(this.progressBar10);
+            this.Controls.Add(this.progressBar9);
+            this.Controls.Add(this.progressBar8);
+            this.Controls.Add(this.progressBar7);
+            this.Controls.Add(this.progressBar6);
+            this.Controls.Add(this.progressBar5);
+            this.Controls.Add(this.progressBar4);
+            this.Controls.Add(this.progressBar3);
+            this.Controls.Add(this.progressBar2);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";

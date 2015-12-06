@@ -49,9 +49,9 @@ namespace rpg
 
             label_n2a.Text = "броня: " + ninja2.Armor.ToString();
             label_n2h.Text = "здоровье: " + ninja2.Hp.ToString();
-
+            progressBar11.Value = ninja2.Hp;
             label_n2m.Text = "мана: " + ninja2.Mp.ToString();
-
+            progressBar10.Value = ninja2.Mp;
 
             label_t1a.Text = "броня: " + titan1.Armor.ToString();
             label_t1h.Text = "здоровье: " + titan1.Hp.ToString();
@@ -61,45 +61,45 @@ namespace rpg
 
             label_t2a.Text = "броня: " + titan2.Armor.ToString();
             label_t2h.Text = "здоровье: " + titan2.Hp.ToString();
-
+            progressBar9.Value = titan2.Hp;
             label_t2m.Text = "мана: " + titan2.Mp.ToString();
-
+            progressBar8.Value = titan2.Mp;
 
             label_a1a.Text = "броня: " + astronomer1.Armor.ToString();
             label_a1h.Text = "здоровье: " + astronomer1.Hp.ToString();
-
+            progressBar17.Value = astronomer1.Hp;
             label_a1m.Text = "мана: " + astronomer1.Mp.ToString();
-
+            progressBar16.Value = astronomer1.Mp;
 
             label_a2a.Text = "броня: " + astronomer2.Armor.ToString();
             label_a2h.Text = "здоровье: " + astronomer2.Hp.ToString();
-
+            progressBar7.Value = astronomer2.Hp;
             label_a2m.Text = "мана: " + astronomer2.Mp.ToString();
-
+            progressBar6.Value = astronomer2.Mp;
 
             label_s1a.Text = "броня: " + sisadmin1.Armor.ToString();
             label_s1h.Text = "здоровье: " + sisadmin1.Hp.ToString();
-
+            progressBar15.Value = sisadmin1.Hp;
             label_s1m.Text = "мана: " + sisadmin1.Mp.ToString();
-
+            progressBar14.Value = sisadmin1.Mp;
 
             label_s2a.Text = "броня: " + sisadmin2.Armor.ToString();
             label_s2h.Text = "здоровье: " + sisadmin2.Hp.ToString();
-
+            progressBar5.Value = sisadmin2.Hp;
             label_s2m.Text = "мана: " + sisadmin2.Mp.ToString();
-
+            progressBar4.Value = sisadmin2.Mp;
 
             label_h1a.Text = "броня: " + halk1.Armor.ToString();
             label_h1h.Text = "здоровье: " + halk1.Hp.ToString();
-
+            progressBar13.Value = halk1.Hp;
             label_h1m.Text = "мана: " + halk1.Mp.ToString();
-
+            progressBar12.Value = halk1.Mp;
 
             label_h2a.Text = "броня: " + halk2.Armor.ToString();
             label_h2h.Text = "здоровье: " + halk2.Hp.ToString();
-
+            progressBar3.Value = halk2.Hp;
             label_h2m.Text = "мана: " + halk2.Mp.ToString();
-
+            progressBar2.Value = halk2.Mp;
 
         }
         
@@ -112,7 +112,7 @@ namespace rpg
         {
             List<Charecter> targets = new List<Charecter>();
             targets.Add(titan1);
-            listBox1.Items.Add(ninja1.Skill1(targets));
+            listBox1.Items.Add(ninja1.Skill1(targets));           
             LabelUpdate();
 
         }
@@ -149,5 +149,6 @@ namespace rpg
             listBox1.Items.Add(halk1.Skill1(targets));
             LabelUpdate();
         }
+
     }
 }
