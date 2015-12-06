@@ -18,7 +18,7 @@ namespace rpg
 
         public override string Skill1(List<Charecter> targets)
         {
-            if (this.Mp >= 20)
+            if (this.Mp >= 120)
             {
                 targets[0].Armor -= 1;
                 targets[0].Hp -= (this.Power - targets[0].Armor);

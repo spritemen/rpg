@@ -203,7 +203,7 @@
             // 
             this.label_n1a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_n1a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_n1a.Location = new System.Drawing.Point(95, 275);
+            this.label_n1a.Location = new System.Drawing.Point(8, 268);
             this.label_n1a.Name = "label_n1a";
             this.label_n1a.Size = new System.Drawing.Size(100, 23);
             this.label_n1a.TabIndex = 11;
@@ -213,7 +213,7 @@
             // 
             this.label_n1h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_n1h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_n1h.Location = new System.Drawing.Point(97, 298);
+            this.label_n1h.Location = new System.Drawing.Point(8, 294);
             this.label_n1h.Name = "label_n1h";
             this.label_n1h.Size = new System.Drawing.Size(100, 23);
             this.label_n1h.TabIndex = 12;
@@ -223,7 +223,7 @@
             // 
             this.label_n1m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_n1m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_n1m.Location = new System.Drawing.Point(95, 322);
+            this.label_n1m.Location = new System.Drawing.Point(7, 320);
             this.label_n1m.Name = "label_n1m";
             this.label_n1m.Size = new System.Drawing.Size(100, 23);
             this.label_n1m.TabIndex = 13;
@@ -233,7 +233,7 @@
             // 
             this.label_t1a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_t1a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_t1a.Location = new System.Drawing.Point(279, 276);
+            this.label_t1a.Location = new System.Drawing.Point(220, 270);
             this.label_t1a.Name = "label_t1a";
             this.label_t1a.Size = new System.Drawing.Size(100, 23);
             this.label_t1a.TabIndex = 14;
@@ -243,7 +243,7 @@
             // 
             this.label_t1h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_t1h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_t1h.Location = new System.Drawing.Point(280, 299);
+            this.label_t1h.Location = new System.Drawing.Point(220, 296);
             this.label_t1h.Name = "label_t1h";
             this.label_t1h.Size = new System.Drawing.Size(100, 23);
             this.label_t1h.TabIndex = 15;
@@ -253,7 +253,7 @@
             // 
             this.label_t1m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_t1m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_t1m.Location = new System.Drawing.Point(275, 322);
+            this.label_t1m.Location = new System.Drawing.Point(220, 322);
             this.label_t1m.Name = "label_t1m";
             this.label_t1m.Size = new System.Drawing.Size(100, 23);
             this.label_t1m.TabIndex = 16;
@@ -263,7 +263,7 @@
             // 
             this.label_a1a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_a1a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_a1a.Location = new System.Drawing.Point(95, 365);
+            this.label_a1a.Location = new System.Drawing.Point(-2, 365);
             this.label_a1a.Name = "label_a1a";
             this.label_a1a.Size = new System.Drawing.Size(100, 23);
             this.label_a1a.TabIndex = 17;
@@ -273,7 +273,7 @@
             // 
             this.label_a1h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_a1h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_a1h.Location = new System.Drawing.Point(97, 390);
+            this.label_a1h.Location = new System.Drawing.Point(-1, 390);
             this.label_a1h.Name = "label_a1h";
             this.label_a1h.Size = new System.Drawing.Size(100, 23);
             this.label_a1h.TabIndex = 18;
@@ -283,7 +283,7 @@
             // 
             this.label_a1m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_a1m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_a1m.Location = new System.Drawing.Point(95, 413);
+            this.label_a1m.Location = new System.Drawing.Point(-1, 412);
             this.label_a1m.Name = "label_a1m";
             this.label_a1m.Size = new System.Drawing.Size(100, 23);
             this.label_a1m.TabIndex = 19;
@@ -293,7 +293,7 @@
             // 
             this.label_s1a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_s1a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_s1a.Location = new System.Drawing.Point(279, 365);
+            this.label_s1a.Location = new System.Drawing.Point(219, 360);
             this.label_s1a.Name = "label_s1a";
             this.label_s1a.Size = new System.Drawing.Size(100, 23);
             this.label_s1a.TabIndex = 20;
@@ -303,7 +303,7 @@
             // 
             this.label_s1h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_s1h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_s1h.Location = new System.Drawing.Point(280, 390);
+            this.label_s1h.Location = new System.Drawing.Point(219, 383);
             this.label_s1h.Name = "label_s1h";
             this.label_s1h.Size = new System.Drawing.Size(100, 23);
             this.label_s1h.TabIndex = 21;
@@ -313,7 +313,7 @@
             // 
             this.label_s1m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_s1m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_s1m.Location = new System.Drawing.Point(279, 412);
+            this.label_s1m.Location = new System.Drawing.Point(218, 412);
             this.label_s1m.Name = "label_s1m";
             this.label_s1m.Size = new System.Drawing.Size(100, 23);
             this.label_s1m.TabIndex = 22;
@@ -323,7 +323,7 @@
             // 
             this.label_h1a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_h1a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_h1a.Location = new System.Drawing.Point(198, 456);
+            this.label_h1a.Location = new System.Drawing.Point(114, 456);
             this.label_h1a.Name = "label_h1a";
             this.label_h1a.Size = new System.Drawing.Size(100, 23);
             this.label_h1a.TabIndex = 23;
@@ -333,7 +333,7 @@
             // 
             this.label_h1h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_h1h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_h1h.Location = new System.Drawing.Point(199, 480);
+            this.label_h1h.Location = new System.Drawing.Point(115, 479);
             this.label_h1h.Name = "label_h1h";
             this.label_h1h.Size = new System.Drawing.Size(100, 23);
             this.label_h1h.TabIndex = 24;
@@ -343,7 +343,7 @@
             // 
             this.label_h1m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_h1m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_h1m.Location = new System.Drawing.Point(198, 499);
+            this.label_h1m.Location = new System.Drawing.Point(115, 502);
             this.label_h1m.Name = "label_h1m";
             this.label_h1m.Size = new System.Drawing.Size(100, 23);
             this.label_h1m.TabIndex = 25;
@@ -353,7 +353,7 @@
             // 
             this.label_n2a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_n2a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_n2a.Location = new System.Drawing.Point(564, 276);
+            this.label_n2a.Location = new System.Drawing.Point(498, 268);
             this.label_n2a.Name = "label_n2a";
             this.label_n2a.Size = new System.Drawing.Size(100, 23);
             this.label_n2a.TabIndex = 26;
@@ -363,7 +363,7 @@
             // 
             this.label_n2h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_n2h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_n2h.Location = new System.Drawing.Point(565, 299);
+            this.label_n2h.Location = new System.Drawing.Point(499, 294);
             this.label_n2h.Name = "label_n2h";
             this.label_n2h.Size = new System.Drawing.Size(100, 23);
             this.label_n2h.TabIndex = 27;
@@ -373,7 +373,7 @@
             // 
             this.label_n2m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_n2m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_n2m.Location = new System.Drawing.Point(564, 322);
+            this.label_n2m.Location = new System.Drawing.Point(499, 322);
             this.label_n2m.Name = "label_n2m";
             this.label_n2m.Size = new System.Drawing.Size(100, 23);
             this.label_n2m.TabIndex = 28;
@@ -383,7 +383,7 @@
             // 
             this.label_t2a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_t2a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_t2a.Location = new System.Drawing.Point(782, 271);
+            this.label_t2a.Location = new System.Drawing.Point(711, 271);
             this.label_t2a.Name = "label_t2a";
             this.label_t2a.Size = new System.Drawing.Size(100, 23);
             this.label_t2a.TabIndex = 29;
@@ -393,7 +393,7 @@
             // 
             this.label_t2h.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_t2h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_t2h.Location = new System.Drawing.Point(783, 294);
+            this.label_t2h.Location = new System.Drawing.Point(712, 294);
             this.label_t2h.Name = "label_t2h";
             this.label_t2h.Size = new System.Drawing.Size(100, 23);
             this.label_t2h.TabIndex = 30;
@@ -403,7 +403,7 @@
             // 
             this.label_t2m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_t2m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_t2m.Location = new System.Drawing.Point(782, 322);
+            this.label_t2m.Location = new System.Drawing.Point(712, 320);
             this.label_t2m.Name = "label_t2m";
             this.label_t2m.Size = new System.Drawing.Size(100, 23);
             this.label_t2m.TabIndex = 31;
@@ -413,7 +413,7 @@
             // 
             this.label_a2a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_a2a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_a2a.Location = new System.Drawing.Point(564, 366);
+            this.label_a2a.Location = new System.Drawing.Point(499, 365);
             this.label_a2a.Name = "label_a2a";
             this.label_a2a.Size = new System.Drawing.Size(100, 23);
             this.label_a2a.TabIndex = 32;
@@ -423,7 +423,7 @@
             // 
             this.label_a2h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_a2h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_a2h.Location = new System.Drawing.Point(565, 390);
+            this.label_a2h.Location = new System.Drawing.Point(500, 390);
             this.label_a2h.Name = "label_a2h";
             this.label_a2h.Size = new System.Drawing.Size(100, 23);
             this.label_a2h.TabIndex = 33;
@@ -433,7 +433,7 @@
             // 
             this.label_a2m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_a2m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_a2m.Location = new System.Drawing.Point(564, 413);
+            this.label_a2m.Location = new System.Drawing.Point(500, 412);
             this.label_a2m.Name = "label_a2m";
             this.label_a2m.Size = new System.Drawing.Size(100, 23);
             this.label_a2m.TabIndex = 34;
@@ -443,7 +443,7 @@
             // 
             this.label_s2a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_s2a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_s2a.Location = new System.Drawing.Point(782, 366);
+            this.label_s2a.Location = new System.Drawing.Point(712, 365);
             this.label_s2a.Name = "label_s2a";
             this.label_s2a.Size = new System.Drawing.Size(100, 23);
             this.label_s2a.TabIndex = 35;
@@ -453,7 +453,7 @@
             // 
             this.label_s2h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_s2h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_s2h.Location = new System.Drawing.Point(783, 390);
+            this.label_s2h.Location = new System.Drawing.Point(713, 388);
             this.label_s2h.Name = "label_s2h";
             this.label_s2h.Size = new System.Drawing.Size(100, 23);
             this.label_s2h.TabIndex = 36;
@@ -463,7 +463,7 @@
             // 
             this.label_s2m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_s2m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_s2m.Location = new System.Drawing.Point(782, 412);
+            this.label_s2m.Location = new System.Drawing.Point(711, 411);
             this.label_s2m.Name = "label_s2m";
             this.label_s2m.Size = new System.Drawing.Size(100, 23);
             this.label_s2m.TabIndex = 37;
@@ -473,7 +473,7 @@
             // 
             this.label_h2a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_h2a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_h2a.Location = new System.Drawing.Point(686, 456);
+            this.label_h2a.Location = new System.Drawing.Point(605, 456);
             this.label_h2a.Name = "label_h2a";
             this.label_h2a.Size = new System.Drawing.Size(100, 23);
             this.label_h2a.TabIndex = 38;
@@ -483,7 +483,7 @@
             // 
             this.label_h2h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_h2h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_h2h.Location = new System.Drawing.Point(687, 480);
+            this.label_h2h.Location = new System.Drawing.Point(606, 479);
             this.label_h2h.Name = "label_h2h";
             this.label_h2h.Size = new System.Drawing.Size(100, 23);
             this.label_h2h.TabIndex = 39;
@@ -493,7 +493,7 @@
             // 
             this.label_h2m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_h2m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_h2m.Location = new System.Drawing.Point(686, 501);
+            this.label_h2m.Location = new System.Drawing.Point(605, 501);
             this.label_h2m.Name = "label_h2m";
             this.label_h2m.Size = new System.Drawing.Size(100, 23);
             this.label_h2m.TabIndex = 40;
@@ -502,140 +502,150 @@
             // progressBar1
             // 
             this.progressBar1.BackColor = System.Drawing.SystemColors.Control;
-            this.progressBar1.Location = new System.Drawing.Point(280, 296);
+            this.progressBar1.ForeColor = System.Drawing.Color.Red;
+            this.progressBar1.Location = new System.Drawing.Point(328, 291);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(100, 23);
             this.progressBar1.TabIndex = 41;
             // 
             // progressBar2
             // 
-            this.progressBar2.Location = new System.Drawing.Point(686, 501);
+            this.progressBar2.Location = new System.Drawing.Point(711, 501);
             this.progressBar2.Name = "progressBar2";
             this.progressBar2.Size = new System.Drawing.Size(100, 23);
             this.progressBar2.TabIndex = 42;
             // 
             // progressBar3
             // 
-            this.progressBar3.Location = new System.Drawing.Point(686, 475);
+            this.progressBar3.ForeColor = System.Drawing.Color.Red;
+            this.progressBar3.Location = new System.Drawing.Point(711, 475);
             this.progressBar3.Name = "progressBar3";
             this.progressBar3.Size = new System.Drawing.Size(100, 23);
             this.progressBar3.TabIndex = 43;
             // 
             // progressBar4
             // 
-            this.progressBar4.Location = new System.Drawing.Point(783, 413);
+            this.progressBar4.Location = new System.Drawing.Point(817, 412);
             this.progressBar4.Name = "progressBar4";
             this.progressBar4.Size = new System.Drawing.Size(100, 23);
             this.progressBar4.TabIndex = 44;
             // 
             // progressBar5
             // 
-            this.progressBar5.Location = new System.Drawing.Point(783, 386);
+            this.progressBar5.ForeColor = System.Drawing.Color.Red;
+            this.progressBar5.Location = new System.Drawing.Point(817, 383);
             this.progressBar5.Name = "progressBar5";
             this.progressBar5.Size = new System.Drawing.Size(100, 23);
             this.progressBar5.TabIndex = 45;
             // 
             // progressBar6
             // 
-            this.progressBar6.Location = new System.Drawing.Point(564, 412);
+            this.progressBar6.Location = new System.Drawing.Point(605, 412);
             this.progressBar6.Name = "progressBar6";
             this.progressBar6.Size = new System.Drawing.Size(100, 23);
             this.progressBar6.TabIndex = 46;
             // 
             // progressBar7
             // 
-            this.progressBar7.Location = new System.Drawing.Point(565, 387);
+            this.progressBar7.ForeColor = System.Drawing.Color.Red;
+            this.progressBar7.Location = new System.Drawing.Point(605, 386);
             this.progressBar7.Name = "progressBar7";
             this.progressBar7.Size = new System.Drawing.Size(100, 23);
             this.progressBar7.TabIndex = 47;
             // 
             // progressBar8
             // 
-            this.progressBar8.Location = new System.Drawing.Point(786, 325);
+            this.progressBar8.Location = new System.Drawing.Point(817, 322);
             this.progressBar8.Name = "progressBar8";
             this.progressBar8.Size = new System.Drawing.Size(100, 23);
             this.progressBar8.TabIndex = 48;
             // 
             // progressBar9
             // 
-            this.progressBar9.Location = new System.Drawing.Point(786, 294);
+            this.progressBar9.ForeColor = System.Drawing.Color.Red;
+            this.progressBar9.Location = new System.Drawing.Point(817, 294);
             this.progressBar9.Name = "progressBar9";
             this.progressBar9.Size = new System.Drawing.Size(100, 23);
             this.progressBar9.TabIndex = 49;
             // 
             // progressBar10
             // 
-            this.progressBar10.Location = new System.Drawing.Point(565, 325);
+            this.progressBar10.Location = new System.Drawing.Point(605, 320);
             this.progressBar10.Name = "progressBar10";
             this.progressBar10.Size = new System.Drawing.Size(100, 23);
             this.progressBar10.TabIndex = 50;
             // 
             // progressBar11
             // 
-            this.progressBar11.Location = new System.Drawing.Point(565, 299);
+            this.progressBar11.ForeColor = System.Drawing.Color.Red;
+            this.progressBar11.Location = new System.Drawing.Point(605, 291);
             this.progressBar11.Name = "progressBar11";
             this.progressBar11.Size = new System.Drawing.Size(100, 23);
             this.progressBar11.TabIndex = 51;
             // 
             // progressBar12
             // 
-            this.progressBar12.Location = new System.Drawing.Point(202, 499);
+            this.progressBar12.Location = new System.Drawing.Point(218, 501);
             this.progressBar12.Name = "progressBar12";
             this.progressBar12.Size = new System.Drawing.Size(100, 23);
             this.progressBar12.TabIndex = 52;
             // 
             // progressBar13
             // 
-            this.progressBar13.Location = new System.Drawing.Point(202, 473);
+            this.progressBar13.ForeColor = System.Drawing.Color.Red;
+            this.progressBar13.Location = new System.Drawing.Point(218, 475);
             this.progressBar13.Name = "progressBar13";
             this.progressBar13.Size = new System.Drawing.Size(100, 23);
             this.progressBar13.TabIndex = 53;
             // 
             // progressBar14
             // 
-            this.progressBar14.Location = new System.Drawing.Point(283, 412);
+            this.progressBar14.Location = new System.Drawing.Point(328, 412);
             this.progressBar14.Name = "progressBar14";
             this.progressBar14.Size = new System.Drawing.Size(100, 23);
             this.progressBar14.TabIndex = 54;
             // 
             // progressBar15
             // 
-            this.progressBar15.Location = new System.Drawing.Point(283, 386);
+            this.progressBar15.ForeColor = System.Drawing.Color.Red;
+            this.progressBar15.Location = new System.Drawing.Point(328, 386);
             this.progressBar15.Name = "progressBar15";
             this.progressBar15.Size = new System.Drawing.Size(100, 23);
             this.progressBar15.TabIndex = 55;
             // 
             // progressBar16
             // 
-            this.progressBar16.Location = new System.Drawing.Point(100, 412);
+            this.progressBar16.Location = new System.Drawing.Point(114, 412);
             this.progressBar16.Name = "progressBar16";
             this.progressBar16.Size = new System.Drawing.Size(100, 23);
             this.progressBar16.TabIndex = 56;
             // 
             // progressBar17
             // 
-            this.progressBar17.Location = new System.Drawing.Point(99, 387);
+            this.progressBar17.ForeColor = System.Drawing.Color.Red;
+            this.progressBar17.Location = new System.Drawing.Point(114, 383);
             this.progressBar17.Name = "progressBar17";
             this.progressBar17.Size = new System.Drawing.Size(100, 23);
             this.progressBar17.TabIndex = 57;
             // 
             // progressBar18
             // 
-            this.progressBar18.Location = new System.Drawing.Point(97, 294);
+            this.progressBar18.ForeColor = System.Drawing.Color.Red;
+            this.progressBar18.Location = new System.Drawing.Point(114, 294);
             this.progressBar18.Name = "progressBar18";
             this.progressBar18.Size = new System.Drawing.Size(100, 23);
             this.progressBar18.TabIndex = 58;
             // 
             // progressBar19
             // 
-            this.progressBar19.Location = new System.Drawing.Point(100, 324);
+            this.progressBar19.Location = new System.Drawing.Point(114, 323);
             this.progressBar19.Name = "progressBar19";
             this.progressBar19.Size = new System.Drawing.Size(100, 23);
             this.progressBar19.TabIndex = 59;
             // 
             // progressBar20
             // 
-            this.progressBar20.Location = new System.Drawing.Point(275, 319);
+            this.progressBar20.Location = new System.Drawing.Point(328, 320);
             this.progressBar20.Name = "progressBar20";
             this.progressBar20.Size = new System.Drawing.Size(100, 26);
             this.progressBar20.TabIndex = 60;
@@ -644,7 +654,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(900, 547);
+            this.ClientSize = new System.Drawing.Size(931, 547);
             this.Controls.Add(this.label_h2m);
             this.Controls.Add(this.label_h2h);
             this.Controls.Add(this.label_h2a);

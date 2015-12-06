@@ -26,8 +26,149 @@ namespace rpg
         public Form1()
         {
             InitializeComponent();
+        }
 
+        private void Hero_death()
+        {
+            if (titan1.Hp <= 0)
+            {
+                titan1.Hp=0;
+                this.Controls.Remove(label_t1a);
+                this.Controls.Remove(label_t1h);
+                this.Controls.Remove(label_t1m);
+                this.Controls.Remove(progressBar1);
+                this.Controls.Remove(progressBar20);
+            }
+            if (titan1.Hp > progressBar1.Maximum)
+            {
+                titan1.Hp = progressBar1.Maximum;
+            } 
 
+            if (titan2.Hp <= 0)
+            {
+                titan2.Hp = 0;
+                this.Controls.Remove(label_t2a);
+                this.Controls.Remove(label_t2h);
+                this.Controls.Remove(label_t2m);
+                this.Controls.Remove(progressBar9);
+                this.Controls.Remove(progressBar8);
+            }
+            if (titan2.Hp > progressBar9.Maximum)
+            {
+                titan2.Hp = progressBar9.Maximum;
+            }
+
+            if (ninja1.Hp <= 0)
+            {
+                ninja1.Hp = 0;
+                this.Controls.Remove(label_n1a);
+                this.Controls.Remove(label_n1h);
+                this.Controls.Remove(label_n1m);
+                this.Controls.Remove(progressBar19);
+                this.Controls.Remove(progressBar18);
+            }
+            if (ninja1.Hp > progressBar19.Maximum)
+            {
+                ninja1.Hp = progressBar18.Maximum;
+            }
+
+            if (titan1.Hp <= 0)
+            {
+                titan1.Hp = 0;
+                this.Controls.Remove(label_t1a);
+                this.Controls.Remove(label_t1h);
+                this.Controls.Remove(label_t1m);
+                this.Controls.Remove(progressBar1);
+                this.Controls.Remove(progressBar20);
+            }
+            if (titan1.Hp > progressBar1.Maximum)
+            {
+                titan1.Hp = progressBar1.Maximum;
+            }
+
+            if (titan1.Hp <= 0)
+            {
+                titan1.Hp = 0;
+                this.Controls.Remove(label_t1a);
+                this.Controls.Remove(label_t1h);
+                this.Controls.Remove(label_t1m);
+                this.Controls.Remove(progressBar1);
+                this.Controls.Remove(progressBar20);
+            }
+            if (titan1.Hp > progressBar1.Maximum)
+            {
+                titan1.Hp = progressBar1.Maximum;
+            }
+
+            if (titan1.Hp <= 0)
+            {
+                titan1.Hp = 0;
+                this.Controls.Remove(label_t1a);
+                this.Controls.Remove(label_t1h);
+                this.Controls.Remove(label_t1m);
+                this.Controls.Remove(progressBar1);
+                this.Controls.Remove(progressBar20);
+            }
+            if (titan1.Hp > progressBar1.Maximum)
+            {
+                titan1.Hp = progressBar1.Maximum;
+            }
+
+            if (titan1.Hp <= 0)
+            {
+                titan1.Hp = 0;
+                this.Controls.Remove(label_t1a);
+                this.Controls.Remove(label_t1h);
+                this.Controls.Remove(label_t1m);
+                this.Controls.Remove(progressBar1);
+                this.Controls.Remove(progressBar20);
+            }
+            if (titan1.Hp > progressBar1.Maximum)
+            {
+                titan1.Hp = progressBar1.Maximum;
+            }
+
+            if (titan1.Hp <= 0)
+            {
+                titan1.Hp = 0;
+                this.Controls.Remove(label_t1a);
+                this.Controls.Remove(label_t1h);
+                this.Controls.Remove(label_t1m);
+                this.Controls.Remove(progressBar1);
+                this.Controls.Remove(progressBar20);
+            }
+            if (titan1.Hp > progressBar1.Maximum)
+            {
+                titan1.Hp = progressBar1.Maximum;
+            }
+
+            if (titan1.Hp <= 0)
+            {
+                titan1.Hp = 0;
+                this.Controls.Remove(label_t1a);
+                this.Controls.Remove(label_t1h);
+                this.Controls.Remove(label_t1m);
+                this.Controls.Remove(progressBar1);
+                this.Controls.Remove(progressBar20);
+            }
+            if (titan1.Hp > progressBar1.Maximum)
+            {
+                titan1.Hp = progressBar1.Maximum;
+            }
+
+            if (titan1.Hp <= 0)
+            {
+                titan1.Hp = 0;
+                this.Controls.Remove(label_t1a);
+                this.Controls.Remove(label_t1h);
+                this.Controls.Remove(label_t1m);
+                this.Controls.Remove(progressBar1);
+                this.Controls.Remove(progressBar20);
+            }
+            if (titan1.Hp > progressBar1.Maximum)
+            {
+                titan1.Hp = progressBar1.Maximum;
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -35,12 +176,39 @@ namespace rpg
             
             progressBar1.Maximum = titan1.Hp;
             progressBar20.Maximum = titan1.Mp;
+
             progressBar18.Maximum = ninja1.Hp;
             progressBar19.Maximum = ninja1.Mp;
+
+            progressBar11.Maximum = ninja2.Hp;
+            progressBar10.Maximum = ninja2.Mp;
+
+            progressBar9.Maximum = titan2.Hp;
+            progressBar8.Maximum = titan2.Mp;
+
+            progressBar17.Maximum = astronomer1.Hp;
+            progressBar16.Maximum = astronomer1.Mp;
+
+            progressBar7.Maximum = astronomer2.Hp;
+            progressBar6.Maximum = astronomer2.Mp;
+
+            progressBar15.Maximum = sisadmin1.Hp;
+            progressBar14.Maximum = sisadmin1.Mp;
+
+            progressBar5.Maximum = sisadmin2.Hp;
+            progressBar4.Maximum = sisadmin2.Mp;
+
+            progressBar13.Maximum = halk1.Hp;
+            progressBar12.Maximum = halk1.Mp;
+
+            progressBar3.Maximum = halk2.Hp;
+            progressBar2.Maximum = halk2.Mp;
+
             LabelUpdate();
         }
         void LabelUpdate()
         {
+            Hero_death();
             label_n1a.Text = "броня: " + ninja1.Armor.ToString();
             label_n1h.Text = "здоровье: " + ninja1.Hp.ToString();
             progressBar18.Value = ninja1.Hp;
@@ -152,3 +320,135 @@ namespace rpg
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                  
