@@ -72,102 +72,102 @@ namespace rpg
                 ninja1.Hp = progressBar18.Maximum;
             }
 
-            if (titan1.Hp <= 0)
+            if (ninja2.Hp <= 0)
             {
-                titan1.Hp = 0;
-                this.Controls.Remove(label_t1a);
-                this.Controls.Remove(label_t1h);
-                this.Controls.Remove(label_t1m);
-                this.Controls.Remove(progressBar1);
-                this.Controls.Remove(progressBar20);
+                ninja2.Hp = 0;
+                this.Controls.Remove(label_n2a);
+                this.Controls.Remove(label_n2h);
+                this.Controls.Remove(label_n2m);
+                this.Controls.Remove(progressBar11);
+                this.Controls.Remove(progressBar10);
             }
-            if (titan1.Hp > progressBar1.Maximum)
+            if (ninja2.Hp > progressBar11.Maximum)
             {
-                titan1.Hp = progressBar1.Maximum;
-            }
-
-            if (titan1.Hp <= 0)
-            {
-                titan1.Hp = 0;
-                this.Controls.Remove(label_t1a);
-                this.Controls.Remove(label_t1h);
-                this.Controls.Remove(label_t1m);
-                this.Controls.Remove(progressBar1);
-                this.Controls.Remove(progressBar20);
-            }
-            if (titan1.Hp > progressBar1.Maximum)
-            {
-                titan1.Hp = progressBar1.Maximum;
+                ninja2.Hp = progressBar11.Maximum;
             }
 
-            if (titan1.Hp <= 0)
+            if (astronomer1.Hp <= 0)
             {
-                titan1.Hp = 0;
-                this.Controls.Remove(label_t1a);
-                this.Controls.Remove(label_t1h);
-                this.Controls.Remove(label_t1m);
-                this.Controls.Remove(progressBar1);
-                this.Controls.Remove(progressBar20);
+                astronomer1.Hp = 0;
+                this.Controls.Remove(label_a1a);
+                this.Controls.Remove(label_a1h);
+                this.Controls.Remove(label_a1m);
+                this.Controls.Remove(progressBar17);
+                this.Controls.Remove(progressBar16);
             }
-            if (titan1.Hp > progressBar1.Maximum)
+            if (astronomer1.Hp > progressBar17.Maximum)
             {
-                titan1.Hp = progressBar1.Maximum;
-            }
-
-            if (titan1.Hp <= 0)
-            {
-                titan1.Hp = 0;
-                this.Controls.Remove(label_t1a);
-                this.Controls.Remove(label_t1h);
-                this.Controls.Remove(label_t1m);
-                this.Controls.Remove(progressBar1);
-                this.Controls.Remove(progressBar20);
-            }
-            if (titan1.Hp > progressBar1.Maximum)
-            {
-                titan1.Hp = progressBar1.Maximum;
+                astronomer1.Hp = progressBar17.Maximum;
             }
 
-            if (titan1.Hp <= 0)
+            if (astronomer2.Hp <= 0)
             {
-                titan1.Hp = 0;
-                this.Controls.Remove(label_t1a);
-                this.Controls.Remove(label_t1h);
-                this.Controls.Remove(label_t1m);
-                this.Controls.Remove(progressBar1);
-                this.Controls.Remove(progressBar20);
+                astronomer2.Hp = 0;
+                this.Controls.Remove(label_a2a);
+                this.Controls.Remove(label_a2h);
+                this.Controls.Remove(label_a2m);
+                this.Controls.Remove(progressBar7);
+                this.Controls.Remove(progressBar6);
             }
-            if (titan1.Hp > progressBar1.Maximum)
+            if (astronomer2.Hp > progressBar7.Maximum)
             {
-                titan1.Hp = progressBar1.Maximum;
-            }
-
-            if (titan1.Hp <= 0)
-            {
-                titan1.Hp = 0;
-                this.Controls.Remove(label_t1a);
-                this.Controls.Remove(label_t1h);
-                this.Controls.Remove(label_t1m);
-                this.Controls.Remove(progressBar1);
-                this.Controls.Remove(progressBar20);
-            }
-            if (titan1.Hp > progressBar1.Maximum)
-            {
-                titan1.Hp = progressBar1.Maximum;
+                astronomer2.Hp = progressBar1.Maximum;
             }
 
-            if (titan1.Hp <= 0)
+            if (sisadmin1.Hp <= 0)
             {
-                titan1.Hp = 0;
-                this.Controls.Remove(label_t1a);
-                this.Controls.Remove(label_t1h);
-                this.Controls.Remove(label_t1m);
-                this.Controls.Remove(progressBar1);
-                this.Controls.Remove(progressBar20);
+                sisadmin1.Hp = 0;
+                this.Controls.Remove(label_s1a);
+                this.Controls.Remove(label_s1h);
+                this.Controls.Remove(label_s1m);
+                this.Controls.Remove(progressBar15);
+                this.Controls.Remove(progressBar14);
             }
-            if (titan1.Hp > progressBar1.Maximum)
+            if (sisadmin1.Hp > progressBar15.Maximum)
             {
-                titan1.Hp = progressBar1.Maximum;
+                sisadmin1.Hp = progressBar14.Maximum;
+            }
+
+            if (sisadmin2.Hp <= 0)
+            {
+                sisadmin2.Hp = 0;
+                this.Controls.Remove(label_s2a);
+                this.Controls.Remove(label_s2h);
+                this.Controls.Remove(label_s2m);
+                this.Controls.Remove(progressBar5);
+                this.Controls.Remove(progressBar4);
+            }
+            if (sisadmin2.Hp > progressBar5.Maximum)
+            {
+                sisadmin2.Hp = progressBar5.Maximum;
+            }
+
+            if (halk1.Hp <= 0)
+            {
+                halk1.Hp = 0;
+                this.Controls.Remove(label_h1a);
+                this.Controls.Remove(label_h1h);
+                this.Controls.Remove(label_h1m);
+                this.Controls.Remove(progressBar13);
+                this.Controls.Remove(progressBar12);
+            }
+            if (halk1.Hp > progressBar1.Maximum)
+            {
+                halk1.Hp = progressBar1.Maximum;
+            }
+
+            if (halk2.Hp <= 0)
+            {
+                halk2.Hp = 0;
+                this.Controls.Remove(label_h2a);
+                this.Controls.Remove(label_h2h);
+                this.Controls.Remove(label_h2m);
+                this.Controls.Remove(progressBar3);
+                this.Controls.Remove(progressBar2);
+            }
+            if (halk2.Hp > progressBar1.Maximum)
+            {
+                halk2.Hp = progressBar1.Maximum;
             }
         }
 
@@ -271,51 +271,96 @@ namespace rpg
 
         }
         
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ninja_button1_Click(object sender, EventArgs e)
+        private void ninja_button_Click(object sender, EventArgs e)
         {
             List<Charecter> targets = new List<Charecter>();
+            button6.Visible = true;
+            button7.Visible = true;
+            button8.Visible = true;
+            button9.Visible = true;
+            button10.Visible = true;            
             targets.Add(titan1);
             listBox1.Items.Add(ninja1.Skill1(targets));           
             LabelUpdate();
-
         }
 
-        private void titan_button2_Click(object sender, EventArgs e)
+        private void titan_button_Click(object sender, EventArgs e)
         {
             List<Charecter> targets = new List<Charecter>();
+            button6.Visible = true;
+            button7.Visible = true;
+            button8.Visible = true;
+            button9.Visible = true;
+            button10.Visible = true;
             targets.Add(titan1);
             listBox1.Items.Add(titan1.Skill1(targets));
             LabelUpdate();
         }
 
-        private void astronomer_button3_Click(object sender, EventArgs e)
+        private void astronomer_button_Click(object sender, EventArgs e)
         {
 
             List<Charecter> targets = new List<Charecter>();
+            button6.Visible = true;
+            button7.Visible = true;
+            button8.Visible = true;
+            button9.Visible = true;
+            button10.Visible = true;
             targets.Add(titan1);
             listBox1.Items.Add(astronomer1.Skill1(targets));
             LabelUpdate();
         }
 
-        private void sisadmin_button4_Click(object sender, EventArgs e)
+        private void sisadmin_button_Click(object sender, EventArgs e)
         {
             List<Charecter> targets = new List<Charecter>();
+            button6.Visible = true;
+            button7.Visible = true;
+            button8.Visible = true;
+            button9.Visible = true;
+            button10.Visible = true;
             targets.Add(titan1);
             listBox1.Items.Add(sisadmin1.Skill1(targets));
             LabelUpdate();
         }
 
-        private void halk_button5_Click_1(object sender, EventArgs e)
+        private void halk_button_Click(object sender, EventArgs e)
         {
+
             List<Charecter> targets = new List<Charecter>();
+            button6.Visible = true;
+            button7.Visible = true;
+            button8.Visible = true;
+            button9.Visible = true;
+            button10.Visible = true;
             targets.Add(titan1);
             listBox1.Items.Add(halk1.Skill1(targets));
             LabelUpdate();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+
         }
 
     }

@@ -29,11 +29,11 @@ namespace rpg
 
         public override string Skill1(List<Charecter> targets)
         {
-            if (this.Mp >= 300)
+            if (this.Mp >= 100)
             {
                 this.Power += 5;
                 targets[0].Hp -= this.Power;
-                Mp -= 300;
+                Mp -= 100;
                 return "Халк разозлился!";
             }
             else

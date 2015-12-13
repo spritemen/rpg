@@ -22,7 +22,7 @@ namespace rpg
             {
                 targets[0].Armor -= 1;
                 targets[0].Hp -= (this.Power - targets[0].Armor);
-                Mp -= 20;
+                Mp -= 120;
                 return "Съешь сюрикен!";
             }
             else
