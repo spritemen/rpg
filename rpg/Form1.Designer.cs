@@ -28,17 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.ninja1skill_button = new System.Windows.Forms.Button();
+            this.titan1skill_button = new System.Windows.Forms.Button();
+            this.astronomer1skill_button = new System.Windows.Forms.Button();
+            this.sisadmin1skill_button = new System.Windows.Forms.Button();
+            this.halk1skill_button = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
+            this.ninja2_button = new System.Windows.Forms.Button();
+            this.titan2_button = new System.Windows.Forms.Button();
+            this.astronomer2_button = new System.Windows.Forms.Button();
+            this.sisadmin2_button = new System.Windows.Forms.Button();
+            this.halk2_button = new System.Windows.Forms.Button();
             this.label_n1a = new System.Windows.Forms.Label();
             this.label_n1h = new System.Windows.Forms.Label();
             this.label_n1m = new System.Windows.Forms.Label();
@@ -89,125 +89,135 @@
             this.progressBar18 = new System.Windows.Forms.ProgressBar();
             this.progressBar19 = new System.Windows.Forms.ProgressBar();
             this.progressBar20 = new System.Windows.Forms.ProgressBar();
+            this.halk1_button = new System.Windows.Forms.Button();
+            this.sisadmin1_button = new System.Windows.Forms.Button();
+            this.astronomer1_button = new System.Windows.Forms.Button();
+            this.titan1_button = new System.Windows.Forms.Button();
+            this.ninja1_button = new System.Windows.Forms.Button();
+            this.halk2skill_button = new System.Windows.Forms.Button();
+            this.sisadmin2skill_button = new System.Windows.Forms.Button();
+            this.astronomer2skill_button = new System.Windows.Forms.Button();
+            this.titan2skill_button = new System.Windows.Forms.Button();
+            this.ninja2skill_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // ninja1skill_button
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(292, 9);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 45);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Сyрикен";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.ninja_button_Click);
+            this.ninja1skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ninja1skill_button.Location = new System.Drawing.Point(386, 68);
+            this.ninja1skill_button.Name = "ninja1skill_button";
+            this.ninja1skill_button.Size = new System.Drawing.Size(136, 26);
+            this.ninja1skill_button.TabIndex = 0;
+            this.ninja1skill_button.Text = "Сyрикен";
+            this.ninja1skill_button.UseVisualStyleBackColor = true;
+            this.ninja1skill_button.Click += new System.EventHandler(this.ninja1_button_Click);
             // 
-            // button2
+            // titan1skill_button
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(434, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(136, 52);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Улучшение брони";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.titan_button_Click);
+            this.titan1skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.titan1skill_button.Location = new System.Drawing.Point(387, 6);
+            this.titan1skill_button.Name = "titan1skill_button";
+            this.titan1skill_button.Size = new System.Drawing.Size(136, 25);
+            this.titan1skill_button.TabIndex = 1;
+            this.titan1skill_button.Text = "Улучшение брони";
+            this.titan1skill_button.UseVisualStyleBackColor = true;
+            this.titan1skill_button.Click += new System.EventHandler(this.titan1_button_Click);
             // 
-            // button3
+            // astronomer1skill_button
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button3.Location = new System.Drawing.Point(292, 71);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(136, 45);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Армагедон";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.astronomer_button_Click);
+            this.astronomer1skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.astronomer1skill_button.Location = new System.Drawing.Point(387, 102);
+            this.astronomer1skill_button.Name = "astronomer1skill_button";
+            this.astronomer1skill_button.Size = new System.Drawing.Size(136, 24);
+            this.astronomer1skill_button.TabIndex = 2;
+            this.astronomer1skill_button.Text = "Армагедон";
+            this.astronomer1skill_button.UseVisualStyleBackColor = true;
+            this.astronomer1skill_button.Click += new System.EventHandler(this.astronomer1_button_Click);
             // 
-            // button4
+            // sisadmin1skill_button
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button4.Location = new System.Drawing.Point(434, 71);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(136, 45);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Лечение";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.sisadmin_button_Click);
+            this.sisadmin1skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.sisadmin1skill_button.Location = new System.Drawing.Point(387, 37);
+            this.sisadmin1skill_button.Name = "sisadmin1skill_button";
+            this.sisadmin1skill_button.Size = new System.Drawing.Size(136, 25);
+            this.sisadmin1skill_button.TabIndex = 3;
+            this.sisadmin1skill_button.Text = "Лечение";
+            this.sisadmin1skill_button.UseVisualStyleBackColor = true;
+            this.sisadmin1skill_button.Click += new System.EventHandler(this.sisadmin1_button_Click);
             // 
-            // button5
+            // halk1skill_button
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button5.Location = new System.Drawing.Point(361, 122);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(136, 45);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Сила Халка";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.halk_button_Click);
+            this.halk1skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.halk1skill_button.Location = new System.Drawing.Point(387, 132);
+            this.halk1skill_button.Name = "halk1skill_button";
+            this.halk1skill_button.Size = new System.Drawing.Size(136, 23);
+            this.halk1skill_button.TabIndex = 4;
+            this.halk1skill_button.Text = "Сила Халка";
+            this.halk1skill_button.UseVisualStyleBackColor = true;
+            this.halk1skill_button.Click += new System.EventHandler(this.halk1_button_Click);
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 12);
+            this.listBox1.Location = new System.Drawing.Point(32, 13);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(274, 251);
+            this.listBox1.Size = new System.Drawing.Size(96, 251);
             this.listBox1.TabIndex = 5;
             // 
-            // button6
+            // ninja2_button
             // 
-            this.button6.Location = new System.Drawing.Point(755, 5);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(80, 21);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "Ниндзя";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Visible = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.ninja2_button.Location = new System.Drawing.Point(837, 72);
+            this.ninja2_button.Name = "ninja2_button";
+            this.ninja2_button.Size = new System.Drawing.Size(80, 21);
+            this.ninja2_button.TabIndex = 6;
+            this.ninja2_button.Text = "Ниндзя";
+            this.ninja2_button.UseVisualStyleBackColor = true;
+            this.ninja2_button.Visible = false;
+            this.ninja2_button.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button7
+            // titan2_button
             // 
-            this.button7.Location = new System.Drawing.Point(755, 32);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(80, 25);
-            this.button7.TabIndex = 7;
-            this.button7.Text = "Титан";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Visible = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.titan2_button.Location = new System.Drawing.Point(837, 13);
+            this.titan2_button.Name = "titan2_button";
+            this.titan2_button.Size = new System.Drawing.Size(80, 25);
+            this.titan2_button.TabIndex = 7;
+            this.titan2_button.Text = "Титан";
+            this.titan2_button.UseVisualStyleBackColor = true;
+            this.titan2_button.Visible = false;
+            this.titan2_button.Click += new System.EventHandler(this.button7_Click);
             // 
-            // button8
+            // astronomer2_button
             // 
-            this.button8.Location = new System.Drawing.Point(755, 63);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(80, 28);
-            this.button8.TabIndex = 8;
-            this.button8.Text = "Астроном\r\n";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Visible = false;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.astronomer2_button.Location = new System.Drawing.Point(837, 98);
+            this.astronomer2_button.Name = "astronomer2_button";
+            this.astronomer2_button.Size = new System.Drawing.Size(80, 28);
+            this.astronomer2_button.TabIndex = 8;
+            this.astronomer2_button.Text = "Астроном\r\n";
+            this.astronomer2_button.UseVisualStyleBackColor = true;
+            this.astronomer2_button.Visible = false;
+            this.astronomer2_button.Click += new System.EventHandler(this.button8_Click);
             // 
-            // button9
+            // sisadmin2_button
             // 
-            this.button9.Location = new System.Drawing.Point(755, 97);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(80, 24);
-            this.button9.TabIndex = 9;
-            this.button9.Text = "Сисадмин";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Visible = false;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            this.sisadmin2_button.Location = new System.Drawing.Point(837, 44);
+            this.sisadmin2_button.Name = "sisadmin2_button";
+            this.sisadmin2_button.Size = new System.Drawing.Size(80, 24);
+            this.sisadmin2_button.TabIndex = 9;
+            this.sisadmin2_button.Text = "Сисадмин";
+            this.sisadmin2_button.UseVisualStyleBackColor = true;
+            this.sisadmin2_button.Visible = false;
+            this.sisadmin2_button.Click += new System.EventHandler(this.button9_Click);
             // 
-            // button10
+            // halk2_button
             // 
-            this.button10.Location = new System.Drawing.Point(755, 127);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(80, 23);
-            this.button10.TabIndex = 10;
-            this.button10.Text = "Халк";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Visible = false;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
+            this.halk2_button.Location = new System.Drawing.Point(837, 132);
+            this.halk2_button.Name = "halk2_button";
+            this.halk2_button.Size = new System.Drawing.Size(80, 23);
+            this.halk2_button.TabIndex = 10;
+            this.halk2_button.Text = "Халк";
+            this.halk2_button.UseVisualStyleBackColor = true;
+            this.halk2_button.Visible = false;
+            this.halk2_button.Click += new System.EventHandler(this.button10_Click);
             // 
             // label_n1a
             // 
@@ -660,11 +670,121 @@
             this.progressBar20.Size = new System.Drawing.Size(100, 26);
             this.progressBar20.TabIndex = 60;
             // 
+            // halk1_button
+            // 
+            this.halk1_button.Location = new System.Drawing.Point(158, 132);
+            this.halk1_button.Name = "halk1_button";
+            this.halk1_button.Size = new System.Drawing.Size(80, 23);
+            this.halk1_button.TabIndex = 65;
+            this.halk1_button.Text = "Халк";
+            this.halk1_button.UseVisualStyleBackColor = true;
+            this.halk1_button.Visible = false;
+            // 
+            // sisadmin1_button
+            // 
+            this.sisadmin1_button.Location = new System.Drawing.Point(157, 44);
+            this.sisadmin1_button.Name = "sisadmin1_button";
+            this.sisadmin1_button.Size = new System.Drawing.Size(80, 24);
+            this.sisadmin1_button.TabIndex = 64;
+            this.sisadmin1_button.Text = "Сисадмин";
+            this.sisadmin1_button.UseVisualStyleBackColor = true;
+            this.sisadmin1_button.Visible = false;
+            // 
+            // astronomer1_button
+            // 
+            this.astronomer1_button.Location = new System.Drawing.Point(158, 98);
+            this.astronomer1_button.Name = "astronomer1_button";
+            this.astronomer1_button.Size = new System.Drawing.Size(80, 28);
+            this.astronomer1_button.TabIndex = 63;
+            this.astronomer1_button.Text = "Астроном\r\n";
+            this.astronomer1_button.UseVisualStyleBackColor = true;
+            this.astronomer1_button.Visible = false;
+            // 
+            // titan1_button
+            // 
+            this.titan1_button.Location = new System.Drawing.Point(157, 13);
+            this.titan1_button.Name = "titan1_button";
+            this.titan1_button.Size = new System.Drawing.Size(80, 25);
+            this.titan1_button.TabIndex = 62;
+            this.titan1_button.Text = "Титан";
+            this.titan1_button.UseVisualStyleBackColor = true;
+            this.titan1_button.Visible = false;
+            // 
+            // ninja1_button
+            // 
+            this.ninja1_button.Location = new System.Drawing.Point(157, 72);
+            this.ninja1_button.Name = "ninja1_button";
+            this.ninja1_button.Size = new System.Drawing.Size(80, 21);
+            this.ninja1_button.TabIndex = 61;
+            this.ninja1_button.Text = "Ниндзя";
+            this.ninja1_button.UseVisualStyleBackColor = true;
+            this.ninja1_button.Visible = false;
+            // 
+            // halk2skill_button
+            // 
+            this.halk2skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.halk2skill_button.Location = new System.Drawing.Point(535, 132);
+            this.halk2skill_button.Name = "halk2skill_button";
+            this.halk2skill_button.Size = new System.Drawing.Size(136, 23);
+            this.halk2skill_button.TabIndex = 70;
+            this.halk2skill_button.Text = "Сила Халка";
+            this.halk2skill_button.UseVisualStyleBackColor = true;
+            // 
+            // sisadmin2skill_button
+            // 
+            this.sisadmin2skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.sisadmin2skill_button.Location = new System.Drawing.Point(535, 37);
+            this.sisadmin2skill_button.Name = "sisadmin2skill_button";
+            this.sisadmin2skill_button.Size = new System.Drawing.Size(136, 25);
+            this.sisadmin2skill_button.TabIndex = 69;
+            this.sisadmin2skill_button.Text = "Лечение";
+            this.sisadmin2skill_button.UseVisualStyleBackColor = true;
+            // 
+            // astronomer2skill_button
+            // 
+            this.astronomer2skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.astronomer2skill_button.Location = new System.Drawing.Point(535, 102);
+            this.astronomer2skill_button.Name = "astronomer2skill_button";
+            this.astronomer2skill_button.Size = new System.Drawing.Size(136, 24);
+            this.astronomer2skill_button.TabIndex = 68;
+            this.astronomer2skill_button.Text = "Армагедон";
+            this.astronomer2skill_button.UseVisualStyleBackColor = true;
+            // 
+            // titan2skill_button
+            // 
+            this.titan2skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.titan2skill_button.Location = new System.Drawing.Point(535, 6);
+            this.titan2skill_button.Name = "titan2skill_button";
+            this.titan2skill_button.Size = new System.Drawing.Size(136, 25);
+            this.titan2skill_button.TabIndex = 67;
+            this.titan2skill_button.Text = "Улучшение брони";
+            this.titan2skill_button.UseVisualStyleBackColor = true;
+            // 
+            // ninja2skill_button
+            // 
+            this.ninja2skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ninja2skill_button.Location = new System.Drawing.Point(535, 68);
+            this.ninja2skill_button.Name = "ninja2skill_button";
+            this.ninja2skill_button.Size = new System.Drawing.Size(136, 25);
+            this.ninja2skill_button.TabIndex = 66;
+            this.ninja2skill_button.Text = "Сyрикен";
+            this.ninja2skill_button.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(931, 547);
+            this.ClientSize = new System.Drawing.Size(1030, 547);
+            this.Controls.Add(this.halk2skill_button);
+            this.Controls.Add(this.sisadmin2skill_button);
+            this.Controls.Add(this.astronomer2skill_button);
+            this.Controls.Add(this.titan2skill_button);
+            this.Controls.Add(this.ninja2skill_button);
+            this.Controls.Add(this.halk1_button);
+            this.Controls.Add(this.sisadmin1_button);
+            this.Controls.Add(this.astronomer1_button);
+            this.Controls.Add(this.titan1_button);
+            this.Controls.Add(this.ninja1_button);
             this.Controls.Add(this.label_h2m);
             this.Controls.Add(this.label_h2h);
             this.Controls.Add(this.label_h2a);
@@ -692,17 +812,17 @@
             this.Controls.Add(this.label_t1m);
             this.Controls.Add(this.label_t1a);
             this.Controls.Add(this.label_n1a);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.halk2_button);
+            this.Controls.Add(this.sisadmin2_button);
+            this.Controls.Add(this.astronomer2_button);
+            this.Controls.Add(this.titan2_button);
+            this.Controls.Add(this.ninja2_button);
             this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.halk1skill_button);
+            this.Controls.Add(this.sisadmin1skill_button);
+            this.Controls.Add(this.astronomer1skill_button);
+            this.Controls.Add(this.titan1skill_button);
+            this.Controls.Add(this.ninja1skill_button);
             this.Controls.Add(this.progressBar20);
             this.Controls.Add(this.label_n1h);
             this.Controls.Add(this.progressBar18);
@@ -736,17 +856,17 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button ninja1skill_button;
+        private System.Windows.Forms.Button titan1skill_button;
+        private System.Windows.Forms.Button astronomer1skill_button;
+        private System.Windows.Forms.Button sisadmin1skill_button;
+        private System.Windows.Forms.Button halk1skill_button;
         private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button ninja2_button;
+        private System.Windows.Forms.Button titan2_button;
+        private System.Windows.Forms.Button astronomer2_button;
+        private System.Windows.Forms.Button sisadmin2_button;
+        private System.Windows.Forms.Button halk2_button;
         private System.Windows.Forms.Label label_n1a;
         private System.Windows.Forms.Label label_n1h;
         private System.Windows.Forms.Label label_n1m;
@@ -797,6 +917,16 @@
         private System.Windows.Forms.ProgressBar progressBar18;
         private System.Windows.Forms.ProgressBar progressBar19;
         private System.Windows.Forms.ProgressBar progressBar20;
+        private System.Windows.Forms.Button halk1_button;
+        private System.Windows.Forms.Button sisadmin1_button;
+        private System.Windows.Forms.Button astronomer1_button;
+        private System.Windows.Forms.Button titan1_button;
+        private System.Windows.Forms.Button ninja1_button;
+        private System.Windows.Forms.Button halk2skill_button;
+        private System.Windows.Forms.Button sisadmin2skill_button;
+        private System.Windows.Forms.Button astronomer2skill_button;
+        private System.Windows.Forms.Button titan2skill_button;
+        private System.Windows.Forms.Button ninja2skill_button;
     }
 }
 

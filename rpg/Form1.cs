@@ -12,6 +12,7 @@ namespace rpg
 {
     public partial class Form1 : Form
     {
+        bool nh = true; 
         Charecter titan1 = new Titan(500, 300, 30, 15, 0);
         Charecter titan2 = new Titan(500, 300, 30, 15, 0);
         Charecter sisadmin1 = new Sisadmin(250, 500, 20, 5, 0);
@@ -22,7 +23,7 @@ namespace rpg
         Charecter astronomer2 = new Astronomer(350, 700, 50, 10, 0);
         Charecter halk1 = new Halk(350, 500, 40, 13, 0);
         Charecter halk2 = new Halk(350, 500, 40, 13, 0);
-
+        List<Charecter> targets = new List<Charecter>(); 
         public Form1()
         {
             InitializeComponent();
@@ -67,7 +68,7 @@ namespace rpg
                 this.Controls.Remove(progressBar19);
                 this.Controls.Remove(progressBar18);
             }
-            if (ninja1.Hp > progressBar19.Maximum)
+            if (ninja1.Hp > progressBar18.Maximum)
             {
                 ninja1.Hp = progressBar18.Maximum;
             }
@@ -111,7 +112,7 @@ namespace rpg
             }
             if (astronomer2.Hp > progressBar7.Maximum)
             {
-                astronomer2.Hp = progressBar1.Maximum;
+                astronomer2.Hp = progressBar7.Maximum;
             }
 
             if (sisadmin1.Hp <= 0)
@@ -125,7 +126,7 @@ namespace rpg
             }
             if (sisadmin1.Hp > progressBar15.Maximum)
             {
-                sisadmin1.Hp = progressBar14.Maximum;
+                sisadmin1.Hp = progressBar15.Maximum;
             }
 
             if (sisadmin2.Hp <= 0)
@@ -151,9 +152,9 @@ namespace rpg
                 this.Controls.Remove(progressBar13);
                 this.Controls.Remove(progressBar12);
             }
-            if (halk1.Hp > progressBar1.Maximum)
+            if (halk1.Hp > progressBar13.Maximum)
             {
-                halk1.Hp = progressBar1.Maximum;
+                halk1.Hp = progressBar13.Maximum;
             }
 
             if (halk2.Hp <= 0)
@@ -165,9 +166,9 @@ namespace rpg
                 this.Controls.Remove(progressBar3);
                 this.Controls.Remove(progressBar2);
             }
-            if (halk2.Hp > progressBar1.Maximum)
+            if (halk2.Hp > progressBar3.Maximum)
             {
-                halk2.Hp = progressBar1.Maximum;
+                halk2.Hp = progressBar3.Maximum;
             }
         }
 
@@ -271,68 +272,61 @@ namespace rpg
 
         }
         
-        private void ninja_button_Click(object sender, EventArgs e)
+        private void ninja1_button_Click(object sender, EventArgs e)
         {
-            List<Charecter> targets = new List<Charecter>();
-            button6.Visible = true;
-            button7.Visible = true;
-            button8.Visible = true;
-            button9.Visible = true;
-            button10.Visible = true;            
-            targets.Add(titan1);
-            listBox1.Items.Add(ninja1.Skill1(targets));           
-            LabelUpdate();
+            nh = true;
+            ninja2_button.Visible = true;
+            titan2_button.Visible = true;
+            astronomer2_button.Visible = true;
+            sisadmin2_button.Visible = true;
+            halk2_button.Visible = true;
+            
         }
 
-        private void titan_button_Click(object sender, EventArgs e)
+        private void titan1_button_Click(object sender, EventArgs e)
         {
-            List<Charecter> targets = new List<Charecter>();
-            button6.Visible = true;
-            button7.Visible = true;
-            button8.Visible = true;
-            button9.Visible = true;
-            button10.Visible = true;
+            List<Charecter> targets = new List<Charecter>();            
             targets.Add(titan1);
             listBox1.Items.Add(titan1.Skill1(targets));
             LabelUpdate();
         }
 
-        private void astronomer_button_Click(object sender, EventArgs e)
+        private void astronomer1_button_Click(object sender, EventArgs e)
         {
 
-            List<Charecter> targets = new List<Charecter>();
-            button6.Visible = true;
-            button7.Visible = true;
-            button8.Visible = true;
-            button9.Visible = true;
-            button10.Visible = true;
-            targets.Add(titan1);
+            List<Charecter> targets = new List<Charecter>();            
+            targets.Add(titan2);
+            targets.Add(astronomer2);
+            targets.Add(astronomer1);
+            targets.Add(sisadmin2);
+            targets.Add(ninja2);
+            targets.Add(halk2);
             listBox1.Items.Add(astronomer1.Skill1(targets));
             LabelUpdate();
         }
 
-        private void sisadmin_button_Click(object sender, EventArgs e)
+        private void sisadmin1_button_Click(object sender, EventArgs e)
         {
             List<Charecter> targets = new List<Charecter>();
-            button6.Visible = true;
-            button7.Visible = true;
-            button8.Visible = true;
-            button9.Visible = true;
-            button10.Visible = true;
+            ninja2_button.Visible = true;
+            titan2_button.Visible = true;
+            astronomer2_button.Visible = true;
+            sisadmin2_button.Visible = true;
+            halk2_button.Visible = true;
             targets.Add(titan1);
             listBox1.Items.Add(sisadmin1.Skill1(targets));
             LabelUpdate();
         }
 
-        private void halk_button_Click(object sender, EventArgs e)
+        private void halk1_button_Click(object sender, EventArgs e)
         {
-
+            nh = false;
             List<Charecter> targets = new List<Charecter>();
-            button6.Visible = true;
-            button7.Visible = true;
-            button8.Visible = true;
-            button9.Visible = true;
-            button10.Visible = true;
+            ninja2_button.Visible = true;
+            titan2_button.Visible = true;
+            astronomer2_button.Visible = true;
+            sisadmin2_button.Visible = true;
+            halk2_button.Visible = true;
             targets.Add(titan1);
             listBox1.Items.Add(halk1.Skill1(targets));
             LabelUpdate();
@@ -340,160 +334,143 @@ namespace rpg
 
         private void button6_Click(object sender, EventArgs e)
         {
-
+            if (nh)
+            {
+                targets.Clear();
+                targets.Add(ninja2);
+                listBox1.Items.Add(ninja1.Skill1(targets));
+                LabelUpdate();
+                ninja2_button.Visible = false;
+                titan2_button.Visible = false;
+                astronomer2_button.Visible = false;
+                sisadmin2_button.Visible = false;
+                halk2_button.Visible = false;
+            }
+            else
+            {
+                targets.Clear();
+                targets.Add(ninja2);
+                listBox1.Items.Add(halk1.Skill1(targets));
+                LabelUpdate();
+                ninja2_button.Visible = false;
+                titan2_button.Visible = false;
+                astronomer2_button.Visible = false;
+                sisadmin2_button.Visible = false;
+                halk2_button.Visible = false;
+            }
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-
+            if (nh)
+            {
+                targets.Clear();
+                targets.Add(titan2);
+                listBox1.Items.Add(ninja1.Skill1(targets));
+                LabelUpdate();
+                ninja2_button.Visible = false;
+                titan2_button.Visible = false;
+                astronomer2_button.Visible = false;
+                sisadmin2_button.Visible = false;
+                halk2_button.Visible = false;
+            }
+            else
+            {
+                targets.Clear();
+                targets.Add(titan2);
+                listBox1.Items.Add(halk1.Skill1(targets));
+                LabelUpdate();
+                ninja2_button.Visible = false;
+                titan2_button.Visible = false;
+                astronomer2_button.Visible = false;
+                sisadmin2_button.Visible = false;
+                halk2_button.Visible = false;
+            }
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-
+            if (nh)
+            {
+                targets.Clear();
+                targets.Add(astronomer2);
+                listBox1.Items.Add(ninja1.Skill1(targets));
+                LabelUpdate();
+                ninja2_button.Visible = false;
+                titan2_button.Visible = false;
+                astronomer2_button.Visible = false;
+                sisadmin2_button.Visible = false;
+                halk2_button.Visible = false;
+            }
+            else
+            {
+                targets.Clear();
+                targets.Add(astronomer2);
+                listBox1.Items.Add(halk1.Skill1(targets));
+                LabelUpdate();
+                ninja2_button.Visible = false;
+                titan2_button.Visible = false;
+                astronomer2_button.Visible = false;
+                sisadmin2_button.Visible = false;
+                halk2_button.Visible = false;
+            }
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-
+            if (nh)
+            {
+                targets.Clear();
+                targets.Add(sisadmin2);
+                listBox1.Items.Add(ninja1.Skill1(targets));
+                LabelUpdate();
+                ninja2_button.Visible = false;
+                titan2_button.Visible = false;
+                astronomer2_button.Visible = false;
+                sisadmin2_button.Visible = false;
+                halk2_button.Visible = false;
+            }
+            else
+            {
+                targets.Clear();
+                targets.Add(sisadmin2);
+                listBox1.Items.Add(halk1.Skill1(targets));
+                LabelUpdate();
+                ninja2_button.Visible = false;
+                titan2_button.Visible = false;
+                astronomer2_button.Visible = false;
+                sisadmin2_button.Visible = false;
+                halk2_button.Visible = false;
+            }
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-
+            if (nh)
+            {
+                targets.Clear();
+                targets.Add(halk2);
+                listBox1.Items.Add(ninja1.Skill1(targets));
+                LabelUpdate();
+                ninja2_button.Visible = false;
+                titan2_button.Visible = false;
+                astronomer2_button.Visible = false;
+                sisadmin2_button.Visible = false;
+                halk2_button.Visible = false;
+            }
+            else
+            {
+                targets.Clear();
+                targets.Add(halk2);
+                listBox1.Items.Add(halk1.Skill1(targets));
+                LabelUpdate();
+                ninja2_button.Visible = false;
+                titan2_button.Visible = false;
+                astronomer2_button.Visible = false;
+                sisadmin2_button.Visible = false;
+                halk2_button.Visible = false;
+            }
         }
 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                  
