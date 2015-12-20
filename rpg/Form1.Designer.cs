@@ -99,6 +99,7 @@
             this.astronomer2skill_button = new System.Windows.Forms.Button();
             this.titan2skill_button = new System.Windows.Forms.Button();
             this.ninja2skill_button = new System.Windows.Forms.Button();
+            this.Exit_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // ninja1skill_button
@@ -117,7 +118,7 @@
             this.titan1skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.titan1skill_button.Location = new System.Drawing.Point(235, 102);
             this.titan1skill_button.Name = "titan1skill_button";
-            this.titan1skill_button.Size = new System.Drawing.Size(85, 60);
+            this.titan1skill_button.Size = new System.Drawing.Size(85, 62);
             this.titan1skill_button.TabIndex = 1;
             this.titan1skill_button.Text = "Улучшение брони";
             this.titan1skill_button.UseVisualStyleBackColor = true;
@@ -150,7 +151,7 @@
             this.halk1skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.halk1skill_button.Location = new System.Drawing.Point(237, 372);
             this.halk1skill_button.Name = "halk1skill_button";
-            this.halk1skill_button.Size = new System.Drawing.Size(83, 61);
+            this.halk1skill_button.Size = new System.Drawing.Size(83, 63);
             this.halk1skill_button.TabIndex = 4;
             this.halk1skill_button.Text = "Сила Халка";
             this.halk1skill_button.UseVisualStyleBackColor = true;
@@ -161,7 +162,7 @@
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(12, 8);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(215, 446);
+            this.listBox1.Size = new System.Drawing.Size(215, 433);
             this.listBox1.TabIndex = 5;
             // 
             // ninja2_button
@@ -353,7 +354,7 @@
             // 
             this.label_h1h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_h1h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_h1h.Location = new System.Drawing.Point(320, 385);
+            this.label_h1h.Location = new System.Drawing.Point(321, 387);
             this.label_h1h.Name = "label_h1h";
             this.label_h1h.Size = new System.Drawing.Size(100, 23);
             this.label_h1h.TabIndex = 24;
@@ -363,7 +364,7 @@
             // 
             this.label_h1m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_h1m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_h1m.Location = new System.Drawing.Point(319, 410);
+            this.label_h1m.Location = new System.Drawing.Point(323, 410);
             this.label_h1m.Name = "label_h1m";
             this.label_h1m.Size = new System.Drawing.Size(100, 23);
             this.label_h1m.TabIndex = 25;
@@ -727,17 +728,19 @@
             // 
             // halk2skill_button
             // 
+            this.halk2skill_button.Enabled = false;
             this.halk2skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.halk2skill_button.Location = new System.Drawing.Point(576, 372);
             this.halk2skill_button.Name = "halk2skill_button";
             this.halk2skill_button.Size = new System.Drawing.Size(85, 61);
-            this.halk2skill_button.TabIndex = 70;
+            this.halk2skill_button.TabIndex = 0;
             this.halk2skill_button.Text = "Сила Халка";
             this.halk2skill_button.UseVisualStyleBackColor = true;
             this.halk2skill_button.Click += new System.EventHandler(this.halk2skill_button_Click);
             // 
             // sisadmin2skill_button
             // 
+            this.sisadmin2skill_button.Enabled = false;
             this.sisadmin2skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.sisadmin2skill_button.Location = new System.Drawing.Point(576, 282);
             this.sisadmin2skill_button.Name = "sisadmin2skill_button";
@@ -749,6 +752,7 @@
             // 
             // astronomer2skill_button
             // 
+            this.astronomer2skill_button.Enabled = false;
             this.astronomer2skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.astronomer2skill_button.Location = new System.Drawing.Point(576, 190);
             this.astronomer2skill_button.Name = "astronomer2skill_button";
@@ -760,6 +764,7 @@
             // 
             // titan2skill_button
             // 
+            this.titan2skill_button.Enabled = false;
             this.titan2skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.titan2skill_button.Location = new System.Drawing.Point(576, 103);
             this.titan2skill_button.Name = "titan2skill_button";
@@ -771,6 +776,7 @@
             // 
             // ninja2skill_button
             // 
+            this.ninja2skill_button.Enabled = false;
             this.ninja2skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ninja2skill_button.Location = new System.Drawing.Point(576, 18);
             this.ninja2skill_button.Name = "ninja2skill_button";
@@ -780,11 +786,22 @@
             this.ninja2skill_button.UseVisualStyleBackColor = true;
             this.ninja2skill_button.Click += new System.EventHandler(this.ninja2skill_button_Click);
             // 
+            // Exit_button
+            // 
+            this.Exit_button.Location = new System.Drawing.Point(327, 447);
+            this.Exit_button.Name = "Exit_button";
+            this.Exit_button.Size = new System.Drawing.Size(214, 23);
+            this.Exit_button.TabIndex = 70;
+            this.Exit_button.Text = "Выход";
+            this.Exit_button.UseVisualStyleBackColor = true;
+            this.Exit_button.Click += new System.EventHandler(this.Exit_button_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(885, 452);
+            this.ClientSize = new System.Drawing.Size(885, 482);
+            this.Controls.Add(this.Exit_button);
             this.Controls.Add(this.halk2skill_button);
             this.Controls.Add(this.sisadmin2skill_button);
             this.Controls.Add(this.astronomer2skill_button);
@@ -856,11 +873,11 @@
             this.Controls.Add(this.sisadmin1skill_button);
             this.Controls.Add(this.sisadmin1_button);
             this.Controls.Add(this.halk1_button);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.Click += new System.EventHandler(this.sisadmin2skill_button_Click);
             this.ResumeLayout(false);
 
         }
@@ -938,6 +955,7 @@
         private System.Windows.Forms.Button astronomer2skill_button;
         private System.Windows.Forms.Button titan2skill_button;
         private System.Windows.Forms.Button ninja2skill_button;
+        private System.Windows.Forms.Button Exit_button;
     }
 }
 

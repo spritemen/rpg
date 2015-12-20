@@ -12,7 +12,8 @@ namespace rpg
 {
     public partial class Form1 : Form
     {
-        //bool turn = true;
+        int team1 = 5;
+        int team2 = 5;
         string snh; 
         Charecter titan1 = new Titan(500, 300, 30, 15, 0);
         Charecter titan2 = new Titan(500, 300, 30, 15, 0);
@@ -28,8 +29,19 @@ namespace rpg
         public Form1()
         {
             InitializeComponent();
+            
         }
-
+        private void Win()
+        {
+            if (team1 == 0)
+            {
+                MessageBox.Show("Победила команда 2");
+            }
+            if (team2 == 0)
+            {
+                MessageBox.Show("Победила команда 1");
+            }
+        }
         private void Hero_death()
         {
             if (titan1.Hp <= 0)
@@ -42,6 +54,12 @@ namespace rpg
                 this.Controls.Remove(progressBar20);
                 this.Controls.Remove(titan1_button);
                 this.Controls.Remove(titan1skill_button);
+                if (this.Controls.Contains(titan1_button)==false)
+                {
+                    team1--; Win();
+                }
+                else
+                    Win();
             }
             if (titan1.Hp > progressBar1.Maximum)
             {
@@ -58,6 +76,12 @@ namespace rpg
                 this.Controls.Remove(progressBar8);
                 this.Controls.Remove(titan2_button);
                 this.Controls.Remove(titan2skill_button);
+                if (this.Controls.Contains(titan1_button) == false)
+                {
+                    team1--; Win();
+                }
+                else
+                    Win();
             }
             if (titan2.Hp > progressBar9.Maximum)
             {
@@ -74,6 +98,12 @@ namespace rpg
                 this.Controls.Remove(progressBar18);
                 this.Controls.Remove(ninja1_button);
                 this.Controls.Remove(ninja1skill_button);
+                if (this.Controls.Contains(titan1_button) == false)
+                {
+                    team1--; Win();
+                }
+                else
+                    Win();
             }
             if (ninja1.Hp > progressBar18.Maximum)
             {
@@ -90,6 +120,12 @@ namespace rpg
                 this.Controls.Remove(progressBar10);
                 this.Controls.Remove(ninja2_button);
                 this.Controls.Remove(ninja2skill_button);
+                if (this.Controls.Contains(titan1_button) == false)
+                {
+                    team1--; Win();
+                }
+                else
+                    Win();
             }
             if (ninja2.Hp > progressBar11.Maximum)
             {
@@ -106,6 +142,12 @@ namespace rpg
                 this.Controls.Remove(progressBar16);
                 this.Controls.Remove(astronomer1_button);
                 this.Controls.Remove(astronomer1skill_button);
+                if (this.Controls.Contains(titan1_button) == false)
+                {
+                    team1--; Win();
+                }
+                else
+                    Win();
             }
             if (astronomer1.Hp > progressBar17.Maximum)
             {
@@ -122,6 +164,12 @@ namespace rpg
                 this.Controls.Remove(progressBar6);
                 this.Controls.Remove(astronomer2_button);
                 this.Controls.Remove(astronomer2skill_button);
+                if (this.Controls.Contains(titan1_button) == false)
+                {
+                    team1--; Win();
+                }
+                else
+                    Win();
             }
             if (astronomer2.Hp > progressBar7.Maximum)
             {
@@ -138,6 +186,12 @@ namespace rpg
                 this.Controls.Remove(progressBar14);
                 this.Controls.Remove(sisadmin1_button);
                 this.Controls.Remove(sisadmin1skill_button);
+                if (this.Controls.Contains(titan1_button) == false)
+                {
+                    team1--; Win();
+                }
+                else
+                    Win();
             }
             if (sisadmin1.Hp > progressBar15.Maximum)
             {
@@ -154,6 +208,12 @@ namespace rpg
                 this.Controls.Remove(progressBar4);
                 this.Controls.Remove(sisadmin2_button);
                 this.Controls.Remove(sisadmin2skill_button);
+                if (this.Controls.Contains(titan1_button) == false)
+                {
+                    team1--; Win();
+                }
+                else
+                    Win();
             }
             if (sisadmin2.Hp > progressBar5.Maximum)
             {
@@ -170,6 +230,12 @@ namespace rpg
                 this.Controls.Remove(progressBar12);
                 this.Controls.Remove(halk1_button);
                 this.Controls.Remove(halk1skill_button);
+                if (this.Controls.Contains(titan1_button) == false)
+                {
+                    team1--; Win();
+                }
+                else
+                    Win();
             }
             if (halk1.Hp > progressBar13.Maximum)
             {
@@ -186,6 +252,12 @@ namespace rpg
                 this.Controls.Remove(progressBar2);
                 this.Controls.Remove(halk2_button);
                 this.Controls.Remove(halk2skill_button);
+                if (this.Controls.Contains(titan1_button) == false)
+                {
+                    team1--; Win();
+                }
+                else
+                    Win();
             }
             if (halk2.Hp > progressBar3.Maximum)
             {
@@ -194,8 +266,7 @@ namespace rpg
         }
 
         private void Form1_Load(object sender, EventArgs e)
-        {
-            
+        {            
             progressBar1.Maximum = titan1.Hp;
             progressBar20.Maximum = titan1.Mp;
 
@@ -319,6 +390,16 @@ namespace rpg
             targets.Add(titan1);
             listBox1.Items.Add(titan1.Skill1(targets));
             LabelUpdate();
+            ninja1skill_button.Enabled = false;
+            titan1skill_button.Enabled = false;
+            astronomer1skill_button.Enabled = false;
+            sisadmin1skill_button.Enabled = false;
+            halk1skill_button.Enabled = false;
+            ninja2skill_button.Enabled = true;
+            titan2skill_button.Enabled = true;
+            astronomer2skill_button.Enabled = true;
+            sisadmin2skill_button.Enabled = true;
+            halk2skill_button.Enabled = true;
         }
 
         private void astronomer1skill_button_Click(object sender, EventArgs e)
@@ -332,6 +413,16 @@ namespace rpg
             targets.Add(halk2);
             listBox1.Items.Add(astronomer1.Skill1(targets));
             LabelUpdate();
+            ninja1skill_button.Enabled = false;
+            titan1skill_button.Enabled = false;
+            astronomer1skill_button.Enabled = false;
+            sisadmin1skill_button.Enabled = false;
+            halk1skill_button.Enabled = false;
+            ninja2skill_button.Enabled = true;
+            titan2skill_button.Enabled = true;
+            astronomer2skill_button.Enabled = true;
+            sisadmin2skill_button.Enabled = true;
+            halk2skill_button.Enabled = true;
         }
 
         private void sisadmin1skill_button_Click(object sender, EventArgs e)
@@ -399,6 +490,16 @@ namespace rpg
             targets.Add(titan2);
             listBox1.Items.Add(titan2.Skill1(targets));
             LabelUpdate();
+            ninja1skill_button.Enabled = true;
+            titan1skill_button.Enabled = true;
+            astronomer1skill_button.Enabled = true;
+            sisadmin1skill_button.Enabled = true;
+            halk1skill_button.Enabled = true;
+            ninja2skill_button.Enabled = false;
+            titan2skill_button.Enabled = false;
+            astronomer2skill_button.Enabled = false;
+            sisadmin2skill_button.Enabled = false;
+            halk2skill_button.Enabled = false;
         }
 
         private void astronomer2skill_button_Click(object sender, EventArgs e)
@@ -412,6 +513,16 @@ namespace rpg
             targets.Add(halk1);
             listBox1.Items.Add(astronomer2.Skill1(targets));
             LabelUpdate();
+            ninja1skill_button.Enabled = true;
+            titan1skill_button.Enabled = true;
+            astronomer1skill_button.Enabled = true;
+            sisadmin1skill_button.Enabled = true;
+            halk1skill_button.Enabled = true;
+            ninja2skill_button.Enabled = false;
+            titan2skill_button.Enabled = false;
+            astronomer2skill_button.Enabled = false;
+            sisadmin2skill_button.Enabled = false;
+            halk2skill_button.Enabled = false;
         }
 
         private void sisadmin2skill_button_Click(object sender, EventArgs e)
@@ -461,7 +572,16 @@ namespace rpg
                 targets.Add(ninja1);
                 listBox1.Items.Add(ninja2.Skill1(targets));
                 LabelUpdate();
-                
+                ninja2skill_button.Enabled = false;
+                titan2skill_button.Enabled = false;
+                astronomer2skill_button.Enabled = false;
+                sisadmin2skill_button.Enabled = false;
+                halk2skill_button.Enabled = false;
+                ninja1skill_button.Enabled = true;
+                titan1skill_button.Enabled = true;
+                astronomer1skill_button.Enabled = true;
+                sisadmin1skill_button.Enabled = true;
+                halk1skill_button.Enabled = true;
             }
             if (snh == "h")
             {
@@ -469,7 +589,16 @@ namespace rpg
                 targets.Add(ninja1);
                 listBox1.Items.Add(halk2.Skill1(targets));
                 LabelUpdate();
-                
+                ninja2skill_button.Enabled = false;
+                titan2skill_button.Enabled = false;
+                astronomer2skill_button.Enabled = false;
+                sisadmin2skill_button.Enabled = false;
+                halk2skill_button.Enabled = false;
+                ninja1skill_button.Enabled = true;
+                titan1skill_button.Enabled = true;
+                astronomer1skill_button.Enabled = true;
+                sisadmin1skill_button.Enabled = true;
+                halk1skill_button.Enabled = true;
             }
             if (snh == "s")
             {
@@ -477,7 +606,16 @@ namespace rpg
                 targets.Add(ninja1);
                 listBox1.Items.Add(sisadmin1.Skill1(targets));
                 LabelUpdate();
-                
+                ninja1skill_button.Enabled = false;
+                titan1skill_button.Enabled = false;
+                astronomer1skill_button.Enabled = false;
+                sisadmin1skill_button.Enabled = false;
+                halk1skill_button.Enabled = false;
+                ninja2skill_button.Enabled = true;
+                titan2skill_button.Enabled = true;
+                astronomer2skill_button.Enabled = true;
+                sisadmin2skill_button.Enabled = true;
+                halk2skill_button.Enabled = true;
             }
             ninja1_button.Visible = false;
             titan1_button.Visible = false;
@@ -502,14 +640,34 @@ namespace rpg
                 targets.Clear();
                 targets.Add(titan1);
                 listBox1.Items.Add(ninja2.Skill1(targets));
-                LabelUpdate();                
+                LabelUpdate();
+                ninja2skill_button.Enabled = false;
+                titan2skill_button.Enabled = false;
+                astronomer2skill_button.Enabled = false;
+                sisadmin2skill_button.Enabled = false;
+                halk2skill_button.Enabled = false;
+                ninja1skill_button.Enabled = true;
+                titan1skill_button.Enabled = true;
+                astronomer1skill_button.Enabled = true;
+                sisadmin1skill_button.Enabled = true;
+                halk1skill_button.Enabled = true;
             }
             if (snh == "h")
             {
                 targets.Clear();
                 targets.Add(titan1);
                 listBox1.Items.Add(halk2.Skill1(targets));
-                LabelUpdate();                
+                LabelUpdate();
+                ninja2skill_button.Enabled = false;
+                titan2skill_button.Enabled = false;
+                astronomer2skill_button.Enabled = false;
+                sisadmin2skill_button.Enabled = false;
+                halk2skill_button.Enabled = false;
+                ninja1skill_button.Enabled = true;
+                titan1skill_button.Enabled = true;
+                astronomer1skill_button.Enabled = true;
+                sisadmin1skill_button.Enabled = true;
+                halk1skill_button.Enabled = true;
             }
             if (snh == "s")
             {
@@ -517,6 +675,16 @@ namespace rpg
                 targets.Add(titan1);
                 listBox1.Items.Add(sisadmin1.Skill1(targets));
                 LabelUpdate();
+                ninja1skill_button.Enabled = false;
+                titan1skill_button.Enabled = false;
+                astronomer1skill_button.Enabled = false;
+                sisadmin1skill_button.Enabled = false;
+                halk1skill_button.Enabled = false;
+                ninja2skill_button.Enabled = true;
+                titan2skill_button.Enabled = true;
+                astronomer2skill_button.Enabled = true;
+                sisadmin2skill_button.Enabled = true;
+                halk2skill_button.Enabled = true;
             }
             ninja1_button.Visible = false;
             titan1_button.Visible = false;
@@ -542,7 +710,16 @@ namespace rpg
                 targets.Add(astronomer1);
                 listBox1.Items.Add(ninja2.Skill1(targets));
                 LabelUpdate();
-
+                ninja2skill_button.Enabled = false;
+                titan2skill_button.Enabled = false;
+                astronomer2skill_button.Enabled = false;
+                sisadmin2skill_button.Enabled = false;
+                halk2skill_button.Enabled = false;
+                ninja1skill_button.Enabled = true;
+                titan1skill_button.Enabled = true;
+                astronomer1skill_button.Enabled = true;
+                sisadmin1skill_button.Enabled = true;
+                halk1skill_button.Enabled = true;
             }
             if (snh == "h")
             {
@@ -550,7 +727,16 @@ namespace rpg
                 targets.Add(astronomer1);
                 listBox1.Items.Add(halk2.Skill1(targets));
                 LabelUpdate();
-
+                ninja2skill_button.Enabled = false;
+                titan2skill_button.Enabled = false;
+                astronomer2skill_button.Enabled = false;
+                sisadmin2skill_button.Enabled = false;
+                halk2skill_button.Enabled = false;
+                ninja1skill_button.Enabled = true;
+                titan1skill_button.Enabled = true;
+                astronomer1skill_button.Enabled = true;
+                sisadmin1skill_button.Enabled = true;
+                halk1skill_button.Enabled = true;
             }
             if (snh == "s")
             {
@@ -558,6 +744,16 @@ namespace rpg
                 targets.Add(astronomer1);
                 listBox1.Items.Add(sisadmin1.Skill1(targets));
                 LabelUpdate();
+                ninja1skill_button.Enabled = false;
+                titan1skill_button.Enabled = false;
+                astronomer1skill_button.Enabled = false;
+                sisadmin1skill_button.Enabled = false;
+                halk1skill_button.Enabled = false;
+                ninja2skill_button.Enabled = true;
+                titan2skill_button.Enabled = true;
+                astronomer2skill_button.Enabled = true;
+                sisadmin2skill_button.Enabled = true;
+                halk2skill_button.Enabled = true;
             }
             ninja1_button.Visible = false;
             titan1_button.Visible = false;
@@ -583,7 +779,16 @@ namespace rpg
                 targets.Add(sisadmin1);
                 listBox1.Items.Add(ninja2.Skill1(targets));
                 LabelUpdate();
-
+                ninja2skill_button.Enabled = false;
+                titan2skill_button.Enabled = false;
+                astronomer2skill_button.Enabled = false;
+                sisadmin2skill_button.Enabled = false;
+                halk2skill_button.Enabled = false;
+                ninja1skill_button.Enabled = true;
+                titan1skill_button.Enabled = true;
+                astronomer1skill_button.Enabled = true;
+                sisadmin1skill_button.Enabled = true;
+                halk1skill_button.Enabled = true;
             }
             if (snh == "h")
             {
@@ -591,7 +796,16 @@ namespace rpg
                 targets.Add(sisadmin1);
                 listBox1.Items.Add(halk2.Skill1(targets));
                 LabelUpdate();
-
+                ninja2skill_button.Enabled = false;
+                titan2skill_button.Enabled = false;
+                astronomer2skill_button.Enabled = false;
+                sisadmin2skill_button.Enabled = false;
+                halk2skill_button.Enabled = false;
+                ninja1skill_button.Enabled = true;
+                titan1skill_button.Enabled = true;
+                astronomer1skill_button.Enabled = true;
+                sisadmin1skill_button.Enabled = true;
+                halk1skill_button.Enabled = true;
             }
             if (snh == "s")
             {
@@ -599,7 +813,16 @@ namespace rpg
                 targets.Add(sisadmin1);
                 listBox1.Items.Add(sisadmin1.Skill1(targets));
                 LabelUpdate();
-
+                ninja1skill_button.Enabled = false;
+                titan1skill_button.Enabled = false;
+                astronomer1skill_button.Enabled = false;
+                sisadmin1skill_button.Enabled = false;
+                halk1skill_button.Enabled = false;
+                ninja2skill_button.Enabled = true;
+                titan2skill_button.Enabled = true;
+                astronomer2skill_button.Enabled = true;
+                sisadmin2skill_button.Enabled = true;
+                halk2skill_button.Enabled = true;
             }
             ninja1_button.Visible = false;
             titan1_button.Visible = false;
@@ -625,7 +848,16 @@ namespace rpg
                 targets.Add(halk1);
                 listBox1.Items.Add(ninja2.Skill1(targets));
                 LabelUpdate();
-
+                ninja2skill_button.Enabled = false;
+                titan2skill_button.Enabled = false;
+                astronomer2skill_button.Enabled = false;
+                sisadmin2skill_button.Enabled = false;
+                halk2skill_button.Enabled = false;
+                ninja1skill_button.Enabled = true;
+                titan1skill_button.Enabled = true;
+                astronomer1skill_button.Enabled = true;
+                sisadmin1skill_button.Enabled = true;
+                halk1skill_button.Enabled = true;
             }
             if (snh == "h")
             {
@@ -633,7 +865,16 @@ namespace rpg
                 targets.Add(halk1);
                 listBox1.Items.Add(halk2.Skill1(targets));
                 LabelUpdate();
-
+                ninja2skill_button.Enabled = false;
+                titan2skill_button.Enabled = false;
+                astronomer2skill_button.Enabled = false;
+                sisadmin2skill_button.Enabled = false;
+                halk2skill_button.Enabled = false;
+                ninja1skill_button.Enabled = true;
+                titan1skill_button.Enabled = true;
+                astronomer1skill_button.Enabled = true;
+                sisadmin1skill_button.Enabled = true;
+                halk1skill_button.Enabled = true;
             }
             if (snh == "s")
             {
@@ -641,7 +882,16 @@ namespace rpg
                 targets.Add(halk1);
                 listBox1.Items.Add(sisadmin1.Skill1(targets));
                 LabelUpdate();
-
+                ninja1skill_button.Enabled = false;
+                titan1skill_button.Enabled = false;
+                astronomer1skill_button.Enabled = false;
+                sisadmin1skill_button.Enabled = false;
+                halk1skill_button.Enabled = false;
+                ninja2skill_button.Enabled = true;
+                titan2skill_button.Enabled = true;
+                astronomer2skill_button.Enabled = true;
+                sisadmin2skill_button.Enabled = true;
+                halk2skill_button.Enabled = true;
             }
             ninja1_button.Visible = false;
             titan1_button.Visible = false;
@@ -666,21 +916,51 @@ namespace rpg
                 targets.Clear();
                 targets.Add(ninja2);
                 listBox1.Items.Add(ninja1.Skill1(targets));
-                LabelUpdate();                
+                LabelUpdate();
+                ninja1skill_button.Enabled = false;
+                titan1skill_button.Enabled = false;
+                astronomer1skill_button.Enabled = false;
+                sisadmin1skill_button.Enabled = false;
+                halk1skill_button.Enabled = false;
+                ninja2skill_button.Enabled = true;
+                titan2skill_button.Enabled = true;
+                astronomer2skill_button.Enabled = true;
+                sisadmin2skill_button.Enabled = true;
+                halk2skill_button.Enabled = true;
             }
             if(snh=="h")
             {
                 targets.Clear();
                 targets.Add(ninja2);
                 listBox1.Items.Add(halk1.Skill1(targets));
-                LabelUpdate();                
+                LabelUpdate();
+                ninja1skill_button.Enabled = false;
+                titan1skill_button.Enabled = false;
+                astronomer1skill_button.Enabled = false;
+                sisadmin1skill_button.Enabled = false;
+                halk1skill_button.Enabled = false;
+                ninja2skill_button.Enabled = true;
+                titan2skill_button.Enabled = true;
+                astronomer2skill_button.Enabled = true;
+                sisadmin2skill_button.Enabled = true;
+                halk2skill_button.Enabled = true;
             }
             if (snh == "s")
             {
                 targets.Clear();
                 targets.Add(ninja2);
                 listBox1.Items.Add(sisadmin2.Skill1(targets));
-                LabelUpdate();                
+                LabelUpdate();
+                ninja2skill_button.Enabled = false;
+                titan2skill_button.Enabled = false;
+                astronomer2skill_button.Enabled = false;
+                sisadmin2skill_button.Enabled = false;
+                halk2skill_button.Enabled = false;
+                ninja1skill_button.Enabled = true;
+                titan1skill_button.Enabled = true;
+                astronomer1skill_button.Enabled = true;
+                sisadmin1skill_button.Enabled = true;
+                halk1skill_button.Enabled = true;
             }
             ninja2_button.Visible = false;
             titan2_button.Visible = false;
@@ -707,20 +987,50 @@ namespace rpg
                 targets.Add(titan2);
                 listBox1.Items.Add(ninja1.Skill1(targets));
                 LabelUpdate();
+                ninja1skill_button.Enabled = false;
+                titan1skill_button.Enabled = false;
+                astronomer1skill_button.Enabled = false;
+                sisadmin1skill_button.Enabled = false;
+                halk1skill_button.Enabled = false;
+                ninja2skill_button.Enabled = true;
+                titan2skill_button.Enabled = true;
+                astronomer2skill_button.Enabled = true;
+                sisadmin2skill_button.Enabled = true;
+                halk2skill_button.Enabled = true;
             }
             if (snh == "h")
             {
                 targets.Clear();
                 targets.Add(titan2);
                 listBox1.Items.Add(halk1.Skill1(targets));
-                LabelUpdate();       
+                LabelUpdate();
+                ninja1skill_button.Enabled = false;
+                titan1skill_button.Enabled = false;
+                astronomer1skill_button.Enabled = false;
+                sisadmin1skill_button.Enabled = false;
+                halk1skill_button.Enabled = false;
+                ninja2skill_button.Enabled = true;
+                titan2skill_button.Enabled = true;
+                astronomer2skill_button.Enabled = true;
+                sisadmin2skill_button.Enabled = true;
+                halk2skill_button.Enabled = true;
             }
             if (snh == "s")
             {
                 targets.Clear();
                 targets.Add(titan2);
                 listBox1.Items.Add(sisadmin2.Skill1(targets));
-                LabelUpdate();                
+                LabelUpdate();
+                ninja2skill_button.Enabled = false;
+                titan2skill_button.Enabled = false;
+                astronomer2skill_button.Enabled = false;
+                sisadmin2skill_button.Enabled = false;
+                halk2skill_button.Enabled = false;
+                ninja1skill_button.Enabled = true;
+                titan1skill_button.Enabled = true;
+                astronomer1skill_button.Enabled = true;
+                sisadmin1skill_button.Enabled = true;
+                halk1skill_button.Enabled = true;
             }
             ninja2_button.Visible = false;
             titan2_button.Visible = false;
@@ -747,7 +1057,16 @@ namespace rpg
                 targets.Add(astronomer2);
                 listBox1.Items.Add(ninja1.Skill1(targets));
                 LabelUpdate();
-                
+                ninja1skill_button.Enabled = false;
+                titan1skill_button.Enabled = false;
+                astronomer1skill_button.Enabled = false;
+                sisadmin1skill_button.Enabled = false;
+                halk1skill_button.Enabled = false;
+                ninja2skill_button.Enabled = true;
+                titan2skill_button.Enabled = true;
+                astronomer2skill_button.Enabled = true;
+                sisadmin2skill_button.Enabled = true;
+                halk2skill_button.Enabled = true;
             }
             if (snh == "h")
             {
@@ -755,14 +1074,33 @@ namespace rpg
                 targets.Add(astronomer2);
                 listBox1.Items.Add(halk1.Skill1(targets));
                 LabelUpdate();
-                
+                ninja1skill_button.Enabled = false;
+                titan1skill_button.Enabled = false;
+                astronomer1skill_button.Enabled = false;
+                sisadmin1skill_button.Enabled = false;
+                halk1skill_button.Enabled = false;
+                ninja2skill_button.Enabled = true;
+                titan2skill_button.Enabled = true;
+                astronomer2skill_button.Enabled = true;
+                sisadmin2skill_button.Enabled = true;
+                halk2skill_button.Enabled = true;
             }
             if (snh == "s")
             {
                 targets.Clear();
                 targets.Add(astronomer2);
                 listBox1.Items.Add(sisadmin2.Skill1(targets));
-                LabelUpdate();                
+                LabelUpdate();
+                ninja2skill_button.Enabled = false;
+                titan2skill_button.Enabled = false;
+                astronomer2skill_button.Enabled = false;
+                sisadmin2skill_button.Enabled = false;
+                halk2skill_button.Enabled = false;
+                ninja1skill_button.Enabled = true;
+                titan1skill_button.Enabled = true;
+                astronomer1skill_button.Enabled = true;
+                sisadmin1skill_button.Enabled = true;
+                halk1skill_button.Enabled = true;
             }
             ninja2_button.Visible = false;
             titan2_button.Visible = false;
@@ -789,7 +1127,16 @@ namespace rpg
                 targets.Add(sisadmin2);
                 listBox1.Items.Add(ninja1.Skill1(targets));
                 LabelUpdate();
-                
+                ninja1skill_button.Enabled = false;
+                titan1skill_button.Enabled = false;
+                astronomer1skill_button.Enabled = false;
+                sisadmin1skill_button.Enabled = false;
+                halk1skill_button.Enabled = false;
+                ninja2skill_button.Enabled = true;
+                titan2skill_button.Enabled = true;
+                astronomer2skill_button.Enabled = true;
+                sisadmin2skill_button.Enabled = true;
+                halk2skill_button.Enabled = true;
             }
             if (snh == "h")
             {
@@ -797,7 +1144,16 @@ namespace rpg
                 targets.Add(sisadmin2);
                 listBox1.Items.Add(halk1.Skill1(targets));
                 LabelUpdate();
-                
+                ninja1skill_button.Enabled = false;
+                titan1skill_button.Enabled = false;
+                astronomer1skill_button.Enabled = false;
+                sisadmin1skill_button.Enabled = false;
+                halk1skill_button.Enabled = false;
+                ninja2skill_button.Enabled = true;
+                titan2skill_button.Enabled = true;
+                astronomer2skill_button.Enabled = true;
+                sisadmin2skill_button.Enabled = true;
+                halk2skill_button.Enabled = true;
             }
             if (snh == "s")
             {
@@ -805,7 +1161,16 @@ namespace rpg
                 targets.Add(sisadmin2);
                 listBox1.Items.Add(sisadmin2.Skill1(targets));
                 LabelUpdate();
-                
+                ninja2skill_button.Enabled = false;
+                titan2skill_button.Enabled = false;
+                astronomer2skill_button.Enabled = false;
+                sisadmin2skill_button.Enabled = false;
+                halk2skill_button.Enabled = false; 
+                ninja1skill_button.Enabled = true;
+                titan1skill_button.Enabled = true;
+                astronomer1skill_button.Enabled = true;
+                sisadmin1skill_button.Enabled = true;
+                halk1skill_button.Enabled = true;
             }
             ninja2_button.Visible = false;
             titan2_button.Visible = false;
@@ -832,7 +1197,16 @@ namespace rpg
                 targets.Add(halk2);
                 listBox1.Items.Add(ninja1.Skill1(targets));
                 LabelUpdate();
-                
+                ninja1skill_button.Enabled = false;
+                titan1skill_button.Enabled = false;
+                astronomer1skill_button.Enabled = false;
+                sisadmin1skill_button.Enabled = false;
+                halk1skill_button.Enabled = false;
+                ninja2skill_button.Enabled = true;
+                titan2skill_button.Enabled = true;
+                astronomer2skill_button.Enabled = true;
+                sisadmin2skill_button.Enabled = true;
+                halk2skill_button.Enabled = true;
             }
             if (snh == "h")
             {
@@ -840,7 +1214,16 @@ namespace rpg
                 targets.Add(halk2);
                 listBox1.Items.Add(halk1.Skill1(targets));
                 LabelUpdate();
-                
+                ninja1skill_button.Enabled = false;
+                titan1skill_button.Enabled = false;
+                astronomer1skill_button.Enabled = false;
+                sisadmin1skill_button.Enabled = false;
+                halk1skill_button.Enabled = false;
+                ninja2skill_button.Enabled = true;
+                titan2skill_button.Enabled = true;
+                astronomer2skill_button.Enabled = true;
+                sisadmin2skill_button.Enabled = true;
+                halk2skill_button.Enabled = true;
             }
             if (snh == "s")
             {
@@ -848,7 +1231,16 @@ namespace rpg
                 targets.Add(halk2);
                 listBox1.Items.Add(sisadmin2.Skill1(targets));
                 LabelUpdate();
-                
+                ninja2skill_button.Enabled = false;
+                titan2skill_button.Enabled = false;
+                astronomer2skill_button.Enabled = false;
+                sisadmin2skill_button.Enabled = false;
+                halk2skill_button.Enabled = false;
+                ninja1skill_button.Enabled = true;
+                titan1skill_button.Enabled = true;
+                astronomer1skill_button.Enabled = true;
+                sisadmin1skill_button.Enabled = true;
+                halk1skill_button.Enabled = true;
             }
             ninja2_button.Visible = false;
             titan2_button.Visible = false;
@@ -865,6 +1257,11 @@ namespace rpg
             astronomer1skill_button.Visible = true;
             sisadmin1skill_button.Visible = true;
             halk1skill_button.Visible = true;
+        }
+
+        private void Exit_button_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
