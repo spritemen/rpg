@@ -108,7 +108,7 @@
             this.ninja1skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ninja1skill_button.ForeColor = System.Drawing.Color.Orange;
             this.ninja1skill_button.Image = ((System.Drawing.Image)(resources.GetObject("ninja1skill_button.Image")));
-            this.ninja1skill_button.Location = new System.Drawing.Point(637, 24);
+            this.ninja1skill_button.Location = new System.Drawing.Point(374, 12);
             this.ninja1skill_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ninja1skill_button.Name = "ninja1skill_button";
             this.ninja1skill_button.Size = new System.Drawing.Size(99, 63);
@@ -121,7 +121,7 @@
             // 
             this.titan1skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.titan1skill_button.Image = ((System.Drawing.Image)(resources.GetObject("titan1skill_button.Image")));
-            this.titan1skill_button.Location = new System.Drawing.Point(637, 106);
+            this.titan1skill_button.Location = new System.Drawing.Point(374, 94);
             this.titan1skill_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.titan1skill_button.Name = "titan1skill_button";
             this.titan1skill_button.Size = new System.Drawing.Size(99, 63);
@@ -135,7 +135,7 @@
             this.astronomer1skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.astronomer1skill_button.ForeColor = System.Drawing.Color.Yellow;
             this.astronomer1skill_button.Image = ((System.Drawing.Image)(resources.GetObject("astronomer1skill_button.Image")));
-            this.astronomer1skill_button.Location = new System.Drawing.Point(637, 195);
+            this.astronomer1skill_button.Location = new System.Drawing.Point(374, 183);
             this.astronomer1skill_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.astronomer1skill_button.Name = "astronomer1skill_button";
             this.astronomer1skill_button.Size = new System.Drawing.Size(99, 63);
@@ -149,7 +149,7 @@
             this.sisadmin1skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.sisadmin1skill_button.ForeColor = System.Drawing.SystemColors.ControlText;
             this.sisadmin1skill_button.Image = ((System.Drawing.Image)(resources.GetObject("sisadmin1skill_button.Image")));
-            this.sisadmin1skill_button.Location = new System.Drawing.Point(637, 287);
+            this.sisadmin1skill_button.Location = new System.Drawing.Point(374, 275);
             this.sisadmin1skill_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sisadmin1skill_button.Name = "sisadmin1skill_button";
             this.sisadmin1skill_button.Size = new System.Drawing.Size(97, 63);
@@ -163,7 +163,7 @@
             this.halk1skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.halk1skill_button.ForeColor = System.Drawing.Color.White;
             this.halk1skill_button.Image = ((System.Drawing.Image)(resources.GetObject("halk1skill_button.Image")));
-            this.halk1skill_button.Location = new System.Drawing.Point(639, 377);
+            this.halk1skill_button.Location = new System.Drawing.Point(376, 363);
             this.halk1skill_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.halk1skill_button.Name = "halk1skill_button";
             this.halk1skill_button.Size = new System.Drawing.Size(97, 63);
@@ -175,83 +175,78 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(21, 11);
+            this.listBox1.Location = new System.Drawing.Point(517, 552);
             this.listBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(213, 433);
+            this.listBox1.Size = new System.Drawing.Size(68, 30);
             this.listBox1.TabIndex = 5;
             // 
             // ninja2_button
             // 
             this.ninja2_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ninja2_button.Image = ((System.Drawing.Image)(resources.GetObject("ninja2_button.Image")));
-            this.ninja2_button.Location = new System.Drawing.Point(1067, 27);
+            this.ninja2_button.Location = new System.Drawing.Point(671, 12);
             this.ninja2_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ninja2_button.Name = "ninja2_button";
             this.ninja2_button.Size = new System.Drawing.Size(99, 63);
             this.ninja2_button.TabIndex = 6;
             this.ninja2_button.Text = "Ниндзя";
             this.ninja2_button.UseVisualStyleBackColor = true;
-            this.ninja2_button.Visible = false;
             this.ninja2_button.Click += new System.EventHandler(this.ninja2_button_Click);
             // 
             // titan2_button
             // 
             this.titan2_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.titan2_button.Location = new System.Drawing.Point(1067, 112);
+            this.titan2_button.Location = new System.Drawing.Point(671, 97);
             this.titan2_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.titan2_button.Name = "titan2_button";
             this.titan2_button.Size = new System.Drawing.Size(99, 61);
             this.titan2_button.TabIndex = 7;
             this.titan2_button.Text = "Титан";
             this.titan2_button.UseVisualStyleBackColor = true;
-            this.titan2_button.Visible = false;
             this.titan2_button.Click += new System.EventHandler(this.titan2_button_Click);
             // 
             // astronomer2_button
             // 
             this.astronomer2_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.astronomer2_button.Location = new System.Drawing.Point(1067, 199);
+            this.astronomer2_button.Location = new System.Drawing.Point(671, 180);
             this.astronomer2_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.astronomer2_button.Name = "astronomer2_button";
             this.astronomer2_button.Size = new System.Drawing.Size(99, 66);
             this.astronomer2_button.TabIndex = 8;
             this.astronomer2_button.Text = "Астроном\r\n";
             this.astronomer2_button.UseVisualStyleBackColor = true;
-            this.astronomer2_button.Visible = false;
             this.astronomer2_button.Click += new System.EventHandler(this.astronomer2_button_Click);
             // 
             // sisadmin2_button
             // 
             this.sisadmin2_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.sisadmin2_button.Location = new System.Drawing.Point(1067, 291);
+            this.sisadmin2_button.Location = new System.Drawing.Point(671, 272);
             this.sisadmin2_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sisadmin2_button.Name = "sisadmin2_button";
             this.sisadmin2_button.Size = new System.Drawing.Size(99, 63);
             this.sisadmin2_button.TabIndex = 9;
             this.sisadmin2_button.Text = "Сисадмин";
             this.sisadmin2_button.UseVisualStyleBackColor = true;
-            this.sisadmin2_button.Visible = false;
             this.sisadmin2_button.Click += new System.EventHandler(this.sisadmin2_button_Click);
             // 
             // halk2_button
             // 
             this.halk2_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.halk2_button.Location = new System.Drawing.Point(1067, 381);
+            this.halk2_button.Location = new System.Drawing.Point(671, 365);
             this.halk2_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.halk2_button.Name = "halk2_button";
             this.halk2_button.Size = new System.Drawing.Size(99, 61);
             this.halk2_button.TabIndex = 10;
             this.halk2_button.Text = "Халк";
             this.halk2_button.UseVisualStyleBackColor = true;
-            this.halk2_button.Visible = false;
             this.halk2_button.Click += new System.EventHandler(this.halk2_button_Click);
             // 
             // label_n1a
             // 
             this.label_n1a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_n1a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_n1a.Location = new System.Drawing.Point(282, 18);
+            this.label_n1a.Location = new System.Drawing.Point(19, 6);
             this.label_n1a.Name = "label_n1a";
             this.label_n1a.Size = new System.Drawing.Size(117, 24);
             this.label_n1a.TabIndex = 11;
@@ -261,7 +256,7 @@
             // 
             this.label_n1h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_n1h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_n1h.Location = new System.Drawing.Point(282, 44);
+            this.label_n1h.Location = new System.Drawing.Point(19, 32);
             this.label_n1h.Name = "label_n1h";
             this.label_n1h.Size = new System.Drawing.Size(117, 24);
             this.label_n1h.TabIndex = 12;
@@ -271,7 +266,7 @@
             // 
             this.label_n1m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_n1m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_n1m.Location = new System.Drawing.Point(281, 70);
+            this.label_n1m.Location = new System.Drawing.Point(18, 58);
             this.label_n1m.Name = "label_n1m";
             this.label_n1m.Size = new System.Drawing.Size(117, 24);
             this.label_n1m.TabIndex = 13;
@@ -281,7 +276,7 @@
             // 
             this.label_t1a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_t1a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_t1a.Location = new System.Drawing.Point(280, 102);
+            this.label_t1a.Location = new System.Drawing.Point(17, 90);
             this.label_t1a.Name = "label_t1a";
             this.label_t1a.Size = new System.Drawing.Size(117, 24);
             this.label_t1a.TabIndex = 14;
@@ -291,7 +286,7 @@
             // 
             this.label_t1h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_t1h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_t1h.Location = new System.Drawing.Point(280, 128);
+            this.label_t1h.Location = new System.Drawing.Point(17, 116);
             this.label_t1h.Name = "label_t1h";
             this.label_t1h.Size = new System.Drawing.Size(117, 24);
             this.label_t1h.TabIndex = 15;
@@ -301,7 +296,7 @@
             // 
             this.label_t1m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_t1m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_t1m.Location = new System.Drawing.Point(280, 154);
+            this.label_t1m.Location = new System.Drawing.Point(17, 142);
             this.label_t1m.Name = "label_t1m";
             this.label_t1m.Size = new System.Drawing.Size(117, 24);
             this.label_t1m.TabIndex = 16;
@@ -311,7 +306,7 @@
             // 
             this.label_a1a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_a1a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_a1a.Location = new System.Drawing.Point(280, 189);
+            this.label_a1a.Location = new System.Drawing.Point(17, 177);
             this.label_a1a.Name = "label_a1a";
             this.label_a1a.Size = new System.Drawing.Size(117, 24);
             this.label_a1a.TabIndex = 17;
@@ -321,7 +316,7 @@
             // 
             this.label_a1h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_a1h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_a1h.Location = new System.Drawing.Point(282, 212);
+            this.label_a1h.Location = new System.Drawing.Point(19, 200);
             this.label_a1h.Name = "label_a1h";
             this.label_a1h.Size = new System.Drawing.Size(117, 24);
             this.label_a1h.TabIndex = 18;
@@ -331,7 +326,7 @@
             // 
             this.label_a1m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_a1m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_a1m.Location = new System.Drawing.Point(280, 238);
+            this.label_a1m.Location = new System.Drawing.Point(17, 226);
             this.label_a1m.Name = "label_a1m";
             this.label_a1m.Size = new System.Drawing.Size(115, 24);
             this.label_a1m.TabIndex = 19;
@@ -341,7 +336,7 @@
             // 
             this.label_s1a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_s1a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_s1a.Location = new System.Drawing.Point(279, 275);
+            this.label_s1a.Location = new System.Drawing.Point(16, 263);
             this.label_s1a.Name = "label_s1a";
             this.label_s1a.Size = new System.Drawing.Size(117, 24);
             this.label_s1a.TabIndex = 20;
@@ -351,7 +346,7 @@
             // 
             this.label_s1h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_s1h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_s1h.Location = new System.Drawing.Point(282, 301);
+            this.label_s1h.Location = new System.Drawing.Point(19, 289);
             this.label_s1h.Name = "label_s1h";
             this.label_s1h.Size = new System.Drawing.Size(117, 24);
             this.label_s1h.TabIndex = 21;
@@ -361,7 +356,7 @@
             // 
             this.label_s1m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_s1m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_s1m.Location = new System.Drawing.Point(281, 327);
+            this.label_s1m.Location = new System.Drawing.Point(18, 315);
             this.label_s1m.Name = "label_s1m";
             this.label_s1m.Size = new System.Drawing.Size(117, 24);
             this.label_s1m.TabIndex = 22;
@@ -371,7 +366,7 @@
             // 
             this.label_h1a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_h1a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_h1a.Location = new System.Drawing.Point(280, 366);
+            this.label_h1a.Location = new System.Drawing.Point(17, 354);
             this.label_h1a.Name = "label_h1a";
             this.label_h1a.Size = new System.Drawing.Size(117, 24);
             this.label_h1a.TabIndex = 23;
@@ -381,7 +376,7 @@
             // 
             this.label_h1h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_h1h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_h1h.Location = new System.Drawing.Point(280, 392);
+            this.label_h1h.Location = new System.Drawing.Point(20, 380);
             this.label_h1h.Name = "label_h1h";
             this.label_h1h.Size = new System.Drawing.Size(117, 24);
             this.label_h1h.TabIndex = 24;
@@ -391,7 +386,7 @@
             // 
             this.label_h1m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_h1m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_h1m.Location = new System.Drawing.Point(282, 415);
+            this.label_h1m.Location = new System.Drawing.Point(19, 403);
             this.label_h1m.Name = "label_h1m";
             this.label_h1m.Size = new System.Drawing.Size(117, 24);
             this.label_h1m.TabIndex = 25;
@@ -401,7 +396,7 @@
             // 
             this.label_n2a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_n2a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_n2a.Location = new System.Drawing.Point(1173, 18);
+            this.label_n2a.Location = new System.Drawing.Point(777, 3);
             this.label_n2a.Name = "label_n2a";
             this.label_n2a.Size = new System.Drawing.Size(117, 24);
             this.label_n2a.TabIndex = 26;
@@ -411,7 +406,7 @@
             // 
             this.label_n2h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_n2h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_n2h.Location = new System.Drawing.Point(1174, 44);
+            this.label_n2h.Location = new System.Drawing.Point(778, 29);
             this.label_n2h.Name = "label_n2h";
             this.label_n2h.Size = new System.Drawing.Size(117, 24);
             this.label_n2h.TabIndex = 27;
@@ -421,7 +416,7 @@
             // 
             this.label_n2m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_n2m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_n2m.Location = new System.Drawing.Point(1171, 70);
+            this.label_n2m.Location = new System.Drawing.Point(775, 55);
             this.label_n2m.Name = "label_n2m";
             this.label_n2m.Size = new System.Drawing.Size(117, 24);
             this.label_n2m.TabIndex = 28;
@@ -431,7 +426,7 @@
             // 
             this.label_t2a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_t2a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_t2a.Location = new System.Drawing.Point(1171, 102);
+            this.label_t2a.Location = new System.Drawing.Point(775, 87);
             this.label_t2a.Name = "label_t2a";
             this.label_t2a.Size = new System.Drawing.Size(117, 24);
             this.label_t2a.TabIndex = 29;
@@ -441,7 +436,7 @@
             // 
             this.label_t2h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_t2h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_t2h.Location = new System.Drawing.Point(1174, 128);
+            this.label_t2h.Location = new System.Drawing.Point(778, 113);
             this.label_t2h.Name = "label_t2h";
             this.label_t2h.Size = new System.Drawing.Size(117, 24);
             this.label_t2h.TabIndex = 30;
@@ -451,7 +446,7 @@
             // 
             this.label_t2m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_t2m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_t2m.Location = new System.Drawing.Point(1171, 154);
+            this.label_t2m.Location = new System.Drawing.Point(775, 139);
             this.label_t2m.Name = "label_t2m";
             this.label_t2m.Size = new System.Drawing.Size(117, 24);
             this.label_t2m.TabIndex = 31;
@@ -461,7 +456,7 @@
             // 
             this.label_a2a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_a2a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_a2a.Location = new System.Drawing.Point(1171, 189);
+            this.label_a2a.Location = new System.Drawing.Point(775, 174);
             this.label_a2a.Name = "label_a2a";
             this.label_a2a.Size = new System.Drawing.Size(117, 24);
             this.label_a2a.TabIndex = 32;
@@ -471,7 +466,7 @@
             // 
             this.label_a2h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_a2h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_a2h.Location = new System.Drawing.Point(1171, 212);
+            this.label_a2h.Location = new System.Drawing.Point(775, 196);
             this.label_a2h.Name = "label_a2h";
             this.label_a2h.Size = new System.Drawing.Size(117, 24);
             this.label_a2h.TabIndex = 33;
@@ -481,7 +476,7 @@
             // 
             this.label_a2m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_a2m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_a2m.Location = new System.Drawing.Point(1170, 238);
+            this.label_a2m.Location = new System.Drawing.Point(774, 222);
             this.label_a2m.Name = "label_a2m";
             this.label_a2m.Size = new System.Drawing.Size(117, 24);
             this.label_a2m.TabIndex = 34;
@@ -491,7 +486,7 @@
             // 
             this.label_s2a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_s2a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_s2a.Location = new System.Drawing.Point(1170, 275);
+            this.label_s2a.Location = new System.Drawing.Point(774, 259);
             this.label_s2a.Name = "label_s2a";
             this.label_s2a.Size = new System.Drawing.Size(117, 24);
             this.label_s2a.TabIndex = 35;
@@ -501,7 +496,7 @@
             // 
             this.label_s2h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_s2h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_s2h.Location = new System.Drawing.Point(1174, 301);
+            this.label_s2h.Location = new System.Drawing.Point(778, 285);
             this.label_s2h.Name = "label_s2h";
             this.label_s2h.Size = new System.Drawing.Size(117, 24);
             this.label_s2h.TabIndex = 36;
@@ -511,7 +506,7 @@
             // 
             this.label_s2m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_s2m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_s2m.Location = new System.Drawing.Point(1170, 327);
+            this.label_s2m.Location = new System.Drawing.Point(774, 311);
             this.label_s2m.Name = "label_s2m";
             this.label_s2m.Size = new System.Drawing.Size(117, 24);
             this.label_s2m.TabIndex = 37;
@@ -521,7 +516,7 @@
             // 
             this.label_h2a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_h2a.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_h2a.Location = new System.Drawing.Point(1170, 366);
+            this.label_h2a.Location = new System.Drawing.Point(778, 353);
             this.label_h2a.Name = "label_h2a";
             this.label_h2a.Size = new System.Drawing.Size(117, 24);
             this.label_h2a.TabIndex = 38;
@@ -531,7 +526,7 @@
             // 
             this.label_h2h.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_h2h.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_h2h.Location = new System.Drawing.Point(1174, 389);
+            this.label_h2h.Location = new System.Drawing.Point(782, 376);
             this.label_h2h.Name = "label_h2h";
             this.label_h2h.Size = new System.Drawing.Size(117, 24);
             this.label_h2h.TabIndex = 39;
@@ -541,7 +536,7 @@
             // 
             this.label_h2m.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_h2m.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_h2m.Location = new System.Drawing.Point(1170, 415);
+            this.label_h2m.Location = new System.Drawing.Point(778, 402);
             this.label_h2m.Name = "label_h2m";
             this.label_h2m.Size = new System.Drawing.Size(117, 24);
             this.label_h2m.TabIndex = 40;
@@ -551,7 +546,7 @@
             // 
             this.progressBar1.BackColor = System.Drawing.SystemColors.Control;
             this.progressBar1.ForeColor = System.Drawing.Color.Red;
-            this.progressBar1.Location = new System.Drawing.Point(406, 128);
+            this.progressBar1.Location = new System.Drawing.Point(143, 116);
             this.progressBar1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(117, 24);
@@ -559,7 +554,7 @@
             // 
             // progressBar2
             // 
-            this.progressBar2.Location = new System.Drawing.Point(1294, 415);
+            this.progressBar2.Location = new System.Drawing.Point(897, 402);
             this.progressBar2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar2.Name = "progressBar2";
             this.progressBar2.Size = new System.Drawing.Size(117, 24);
@@ -568,7 +563,7 @@
             // progressBar3
             // 
             this.progressBar3.ForeColor = System.Drawing.Color.Red;
-            this.progressBar3.Location = new System.Drawing.Point(1294, 389);
+            this.progressBar3.Location = new System.Drawing.Point(897, 376);
             this.progressBar3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar3.Name = "progressBar3";
             this.progressBar3.Size = new System.Drawing.Size(117, 24);
@@ -576,7 +571,7 @@
             // 
             // progressBar4
             // 
-            this.progressBar4.Location = new System.Drawing.Point(1295, 327);
+            this.progressBar4.Location = new System.Drawing.Point(897, 315);
             this.progressBar4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar4.Name = "progressBar4";
             this.progressBar4.Size = new System.Drawing.Size(117, 24);
@@ -585,7 +580,7 @@
             // progressBar5
             // 
             this.progressBar5.ForeColor = System.Drawing.Color.Red;
-            this.progressBar5.Location = new System.Drawing.Point(1295, 301);
+            this.progressBar5.Location = new System.Drawing.Point(897, 285);
             this.progressBar5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar5.Name = "progressBar5";
             this.progressBar5.Size = new System.Drawing.Size(117, 24);
@@ -593,7 +588,7 @@
             // 
             // progressBar6
             // 
-            this.progressBar6.Location = new System.Drawing.Point(1295, 238);
+            this.progressBar6.Location = new System.Drawing.Point(897, 222);
             this.progressBar6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar6.Name = "progressBar6";
             this.progressBar6.Size = new System.Drawing.Size(117, 24);
@@ -602,7 +597,7 @@
             // progressBar7
             // 
             this.progressBar7.ForeColor = System.Drawing.Color.Red;
-            this.progressBar7.Location = new System.Drawing.Point(1295, 212);
+            this.progressBar7.Location = new System.Drawing.Point(897, 196);
             this.progressBar7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar7.Name = "progressBar7";
             this.progressBar7.Size = new System.Drawing.Size(117, 24);
@@ -610,7 +605,7 @@
             // 
             // progressBar8
             // 
-            this.progressBar8.Location = new System.Drawing.Point(1295, 154);
+            this.progressBar8.Location = new System.Drawing.Point(897, 139);
             this.progressBar8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar8.Name = "progressBar8";
             this.progressBar8.Size = new System.Drawing.Size(117, 24);
@@ -619,7 +614,7 @@
             // progressBar9
             // 
             this.progressBar9.ForeColor = System.Drawing.Color.Red;
-            this.progressBar9.Location = new System.Drawing.Point(1295, 128);
+            this.progressBar9.Location = new System.Drawing.Point(897, 113);
             this.progressBar9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar9.Name = "progressBar9";
             this.progressBar9.Size = new System.Drawing.Size(117, 24);
@@ -627,7 +622,7 @@
             // 
             // progressBar10
             // 
-            this.progressBar10.Location = new System.Drawing.Point(1295, 70);
+            this.progressBar10.Location = new System.Drawing.Point(897, 55);
             this.progressBar10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar10.Name = "progressBar10";
             this.progressBar10.Size = new System.Drawing.Size(117, 24);
@@ -636,7 +631,7 @@
             // progressBar11
             // 
             this.progressBar11.ForeColor = System.Drawing.Color.Red;
-            this.progressBar11.Location = new System.Drawing.Point(1295, 44);
+            this.progressBar11.Location = new System.Drawing.Point(897, 27);
             this.progressBar11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar11.Name = "progressBar11";
             this.progressBar11.Size = new System.Drawing.Size(117, 24);
@@ -644,7 +639,7 @@
             // 
             // progressBar12
             // 
-            this.progressBar12.Location = new System.Drawing.Point(404, 418);
+            this.progressBar12.Location = new System.Drawing.Point(141, 406);
             this.progressBar12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar12.Name = "progressBar12";
             this.progressBar12.Size = new System.Drawing.Size(117, 24);
@@ -653,7 +648,7 @@
             // progressBar13
             // 
             this.progressBar13.ForeColor = System.Drawing.Color.Red;
-            this.progressBar13.Location = new System.Drawing.Point(404, 392);
+            this.progressBar13.Location = new System.Drawing.Point(141, 380);
             this.progressBar13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar13.Name = "progressBar13";
             this.progressBar13.Size = new System.Drawing.Size(117, 24);
@@ -661,7 +656,7 @@
             // 
             // progressBar14
             // 
-            this.progressBar14.Location = new System.Drawing.Point(404, 327);
+            this.progressBar14.Location = new System.Drawing.Point(141, 315);
             this.progressBar14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar14.Name = "progressBar14";
             this.progressBar14.Size = new System.Drawing.Size(117, 24);
@@ -670,7 +665,7 @@
             // progressBar15
             // 
             this.progressBar15.ForeColor = System.Drawing.Color.Red;
-            this.progressBar15.Location = new System.Drawing.Point(404, 301);
+            this.progressBar15.Location = new System.Drawing.Point(141, 289);
             this.progressBar15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar15.Name = "progressBar15";
             this.progressBar15.Size = new System.Drawing.Size(117, 24);
@@ -678,7 +673,7 @@
             // 
             // progressBar16
             // 
-            this.progressBar16.Location = new System.Drawing.Point(404, 238);
+            this.progressBar16.Location = new System.Drawing.Point(141, 226);
             this.progressBar16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar16.Name = "progressBar16";
             this.progressBar16.Size = new System.Drawing.Size(117, 24);
@@ -687,7 +682,7 @@
             // progressBar17
             // 
             this.progressBar17.ForeColor = System.Drawing.Color.Red;
-            this.progressBar17.Location = new System.Drawing.Point(404, 212);
+            this.progressBar17.Location = new System.Drawing.Point(141, 200);
             this.progressBar17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar17.Name = "progressBar17";
             this.progressBar17.Size = new System.Drawing.Size(117, 24);
@@ -696,7 +691,7 @@
             // progressBar18
             // 
             this.progressBar18.ForeColor = System.Drawing.Color.Red;
-            this.progressBar18.Location = new System.Drawing.Point(404, 44);
+            this.progressBar18.Location = new System.Drawing.Point(141, 32);
             this.progressBar18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar18.Name = "progressBar18";
             this.progressBar18.Size = new System.Drawing.Size(117, 24);
@@ -704,7 +699,7 @@
             // 
             // progressBar19
             // 
-            this.progressBar19.Location = new System.Drawing.Point(404, 70);
+            this.progressBar19.Location = new System.Drawing.Point(141, 58);
             this.progressBar19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar19.Name = "progressBar19";
             this.progressBar19.Size = new System.Drawing.Size(117, 24);
@@ -712,7 +707,7 @@
             // 
             // progressBar20
             // 
-            this.progressBar20.Location = new System.Drawing.Point(406, 154);
+            this.progressBar20.Location = new System.Drawing.Point(143, 142);
             this.progressBar20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar20.Name = "progressBar20";
             this.progressBar20.Size = new System.Drawing.Size(117, 24);
@@ -721,67 +716,62 @@
             // halk1_button
             // 
             this.halk1_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.halk1_button.Location = new System.Drawing.Point(533, 377);
+            this.halk1_button.Location = new System.Drawing.Point(270, 363);
             this.halk1_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.halk1_button.Name = "halk1_button";
             this.halk1_button.Size = new System.Drawing.Size(97, 63);
             this.halk1_button.TabIndex = 65;
             this.halk1_button.Text = "Халк";
             this.halk1_button.UseVisualStyleBackColor = true;
-            this.halk1_button.Visible = false;
             this.halk1_button.Click += new System.EventHandler(this.halk1_button_Click);
             // 
             // sisadmin1_button
             // 
             this.sisadmin1_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.sisadmin1_button.Location = new System.Drawing.Point(531, 287);
+            this.sisadmin1_button.Location = new System.Drawing.Point(268, 276);
             this.sisadmin1_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sisadmin1_button.Name = "sisadmin1_button";
             this.sisadmin1_button.Size = new System.Drawing.Size(96, 63);
             this.sisadmin1_button.TabIndex = 64;
             this.sisadmin1_button.Text = "Сисадмин";
             this.sisadmin1_button.UseVisualStyleBackColor = true;
-            this.sisadmin1_button.Visible = false;
             this.sisadmin1_button.Click += new System.EventHandler(this.sisadmin1_button_Click);
             // 
             // astronomer1_button
             // 
             this.astronomer1_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.astronomer1_button.Location = new System.Drawing.Point(529, 195);
+            this.astronomer1_button.Location = new System.Drawing.Point(266, 183);
             this.astronomer1_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.astronomer1_button.Name = "astronomer1_button";
             this.astronomer1_button.Size = new System.Drawing.Size(99, 63);
             this.astronomer1_button.TabIndex = 63;
             this.astronomer1_button.Text = "Астроном\r\n";
             this.astronomer1_button.UseVisualStyleBackColor = true;
-            this.astronomer1_button.Visible = false;
             this.astronomer1_button.Click += new System.EventHandler(this.astronomer1_button_Click);
             // 
             // titan1_button
             // 
             this.titan1_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.titan1_button.Location = new System.Drawing.Point(531, 106);
+            this.titan1_button.Location = new System.Drawing.Point(268, 94);
             this.titan1_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.titan1_button.Name = "titan1_button";
             this.titan1_button.Size = new System.Drawing.Size(99, 63);
             this.titan1_button.TabIndex = 62;
             this.titan1_button.Text = "Титан";
             this.titan1_button.UseVisualStyleBackColor = true;
-            this.titan1_button.Visible = false;
             this.titan1_button.Click += new System.EventHandler(this.titan1_button_Click);
             // 
             // ninja1_button
             // 
             this.ninja1_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ninja1_button.Image = ((System.Drawing.Image)(resources.GetObject("ninja1_button.Image")));
-            this.ninja1_button.Location = new System.Drawing.Point(531, 24);
+            this.ninja1_button.Location = new System.Drawing.Point(268, 12);
             this.ninja1_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ninja1_button.Name = "ninja1_button";
             this.ninja1_button.Size = new System.Drawing.Size(99, 63);
             this.ninja1_button.TabIndex = 61;
             this.ninja1_button.Text = "Ниндзя";
             this.ninja1_button.UseVisualStyleBackColor = true;
-            this.ninja1_button.Visible = false;
             this.ninja1_button.Click += new System.EventHandler(this.ninja1_batton_Click);
             // 
             // halk2skill_button
@@ -790,7 +780,7 @@
             this.halk2skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.halk2skill_button.ForeColor = System.Drawing.Color.White;
             this.halk2skill_button.Image = ((System.Drawing.Image)(resources.GetObject("halk2skill_button.Image")));
-            this.halk2skill_button.Location = new System.Drawing.Point(961, 381);
+            this.halk2skill_button.Location = new System.Drawing.Point(566, 365);
             this.halk2skill_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.halk2skill_button.Name = "halk2skill_button";
             this.halk2skill_button.Size = new System.Drawing.Size(99, 61);
@@ -804,7 +794,7 @@
             this.sisadmin2skill_button.Enabled = false;
             this.sisadmin2skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.sisadmin2skill_button.Image = ((System.Drawing.Image)(resources.GetObject("sisadmin2skill_button.Image")));
-            this.sisadmin2skill_button.Location = new System.Drawing.Point(961, 291);
+            this.sisadmin2skill_button.Location = new System.Drawing.Point(565, 272);
             this.sisadmin2skill_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sisadmin2skill_button.Name = "sisadmin2skill_button";
             this.sisadmin2skill_button.Size = new System.Drawing.Size(99, 63);
@@ -819,7 +809,7 @@
             this.astronomer2skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.astronomer2skill_button.ForeColor = System.Drawing.Color.Yellow;
             this.astronomer2skill_button.Image = ((System.Drawing.Image)(resources.GetObject("astronomer2skill_button.Image")));
-            this.astronomer2skill_button.Location = new System.Drawing.Point(961, 199);
+            this.astronomer2skill_button.Location = new System.Drawing.Point(566, 180);
             this.astronomer2skill_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.astronomer2skill_button.Name = "astronomer2skill_button";
             this.astronomer2skill_button.Size = new System.Drawing.Size(99, 66);
@@ -833,7 +823,7 @@
             this.titan2skill_button.Enabled = false;
             this.titan2skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.titan2skill_button.Image = ((System.Drawing.Image)(resources.GetObject("titan2skill_button.Image")));
-            this.titan2skill_button.Location = new System.Drawing.Point(961, 112);
+            this.titan2skill_button.Location = new System.Drawing.Point(565, 97);
             this.titan2skill_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.titan2skill_button.Name = "titan2skill_button";
             this.titan2skill_button.Size = new System.Drawing.Size(99, 61);
@@ -848,7 +838,7 @@
             this.ninja2skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ninja2skill_button.ForeColor = System.Drawing.Color.Orange;
             this.ninja2skill_button.Image = ((System.Drawing.Image)(resources.GetObject("ninja2skill_button.Image")));
-            this.ninja2skill_button.Location = new System.Drawing.Point(961, 27);
+            this.ninja2skill_button.Location = new System.Drawing.Point(565, 11);
             this.ninja2skill_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ninja2skill_button.Name = "ninja2skill_button";
             this.ninja2skill_button.Size = new System.Drawing.Size(99, 63);
@@ -859,19 +849,21 @@
             // 
             // Exit_button
             // 
-            this.Exit_button.Location = new System.Drawing.Point(721, 460);
+            this.Exit_button.Location = new System.Drawing.Point(392, 449);
             this.Exit_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Exit_button.Name = "Exit_button";
             this.Exit_button.Size = new System.Drawing.Size(250, 24);
             this.Exit_button.TabIndex = 70;
             this.Exit_button.Text = "Выход";
             this.Exit_button.UseVisualStyleBackColor = true;
+            this.Exit_button.Click += new System.EventHandler(this.Exit_button_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1427, 495);
+            this.ClientSize = new System.Drawing.Size(1226, 878);
+            this.Controls.Add(this.progressBar18);
             this.Controls.Add(this.Exit_button);
             this.Controls.Add(this.halk2skill_button);
             this.Controls.Add(this.sisadmin2skill_button);
@@ -917,7 +909,6 @@
             this.Controls.Add(this.ninja1skill_button);
             this.Controls.Add(this.progressBar20);
             this.Controls.Add(this.label_n1h);
-            this.Controls.Add(this.progressBar18);
             this.Controls.Add(this.label_n1m);
             this.Controls.Add(this.label_t1h);
             this.Controls.Add(this.progressBar1);
