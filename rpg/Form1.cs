@@ -1258,10 +1258,5 @@ namespace rpg
             sisadmin1skill_button.Visible = true;
             halk1skill_button.Visible = true;
         }
-
-        private void Exit_button_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
     }
 }
