@@ -1,4 +1,44 @@
-﻿using System;
+﻿
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -371,7 +411,7 @@ namespace rpg
             titan2_button.Enabled = true;
             astronomer2_button.Enabled = true;
             sisadmin2_button.Enabled = true;
-            halk1_button.Enabled = true;
+            halk2_button.Enabled = true;
             ninja1_button.Enabled = false;
             titan1_button.Enabled = false;
             astronomer1_button.Enabled = false;
@@ -458,7 +498,7 @@ namespace rpg
             titan2_button.Enabled = true;
             astronomer2_button.Enabled = true;
             sisadmin2_button.Enabled = true;
-            halk1_button.Enabled = true;
+            halk2_button.Enabled = true;
             ninja1_button.Enabled = false;
             titan1_button.Enabled = false;
             astronomer1_button.Enabled = false;

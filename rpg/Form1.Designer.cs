@@ -175,15 +175,17 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(517, 552);
+            this.listBox1.Location = new System.Drawing.Point(34, 446);
             this.listBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(68, 30);
+            this.listBox1.Size = new System.Drawing.Size(820, 108);
             this.listBox1.TabIndex = 5;
             // 
             // ninja2_button
             // 
+            this.ninja2_button.Enabled = false;
             this.ninja2_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ninja2_button.ForeColor = System.Drawing.Color.White;
             this.ninja2_button.Image = ((System.Drawing.Image)(resources.GetObject("ninja2_button.Image")));
             this.ninja2_button.Location = new System.Drawing.Point(671, 12);
             this.ninja2_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -196,6 +198,9 @@
             // 
             // titan2_button
             // 
+            this.titan2_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("titan2_button.BackgroundImage")));
+            this.titan2_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.titan2_button.Enabled = false;
             this.titan2_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.titan2_button.Location = new System.Drawing.Point(671, 97);
             this.titan2_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -208,7 +213,11 @@
             // 
             // astronomer2_button
             // 
-            this.astronomer2_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.astronomer2_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("astronomer2_button.BackgroundImage")));
+            this.astronomer2_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.astronomer2_button.Enabled = false;
+            this.astronomer2_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold);
+            this.astronomer2_button.ForeColor = System.Drawing.Color.Red;
             this.astronomer2_button.Location = new System.Drawing.Point(671, 180);
             this.astronomer2_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.astronomer2_button.Name = "astronomer2_button";
@@ -220,6 +229,9 @@
             // 
             // sisadmin2_button
             // 
+            this.sisadmin2_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("sisadmin2_button.BackgroundImage")));
+            this.sisadmin2_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.sisadmin2_button.Enabled = false;
             this.sisadmin2_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.sisadmin2_button.Location = new System.Drawing.Point(671, 272);
             this.sisadmin2_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -232,7 +244,11 @@
             // 
             // halk2_button
             // 
+            this.halk2_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("halk2_button.BackgroundImage")));
+            this.halk2_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.halk2_button.Enabled = false;
             this.halk2_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.halk2_button.ForeColor = System.Drawing.Color.White;
             this.halk2_button.Location = new System.Drawing.Point(671, 365);
             this.halk2_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.halk2_button.Name = "halk2_button";
@@ -715,7 +731,11 @@
             // 
             // halk1_button
             // 
+            this.halk1_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("halk1_button.BackgroundImage")));
+            this.halk1_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.halk1_button.Enabled = false;
             this.halk1_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.halk1_button.ForeColor = System.Drawing.Color.White;
             this.halk1_button.Location = new System.Drawing.Point(270, 363);
             this.halk1_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.halk1_button.Name = "halk1_button";
@@ -727,6 +747,9 @@
             // 
             // sisadmin1_button
             // 
+            this.sisadmin1_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("sisadmin1_button.BackgroundImage")));
+            this.sisadmin1_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.sisadmin1_button.Enabled = false;
             this.sisadmin1_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.sisadmin1_button.Location = new System.Drawing.Point(268, 276);
             this.sisadmin1_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -739,7 +762,11 @@
             // 
             // astronomer1_button
             // 
-            this.astronomer1_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.astronomer1_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("astronomer1_button.BackgroundImage")));
+            this.astronomer1_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.astronomer1_button.Enabled = false;
+            this.astronomer1_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold);
+            this.astronomer1_button.ForeColor = System.Drawing.Color.Red;
             this.astronomer1_button.Location = new System.Drawing.Point(266, 183);
             this.astronomer1_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.astronomer1_button.Name = "astronomer1_button";
@@ -751,6 +778,9 @@
             // 
             // titan1_button
             // 
+            this.titan1_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("titan1_button.BackgroundImage")));
+            this.titan1_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.titan1_button.Enabled = false;
             this.titan1_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.titan1_button.Location = new System.Drawing.Point(268, 94);
             this.titan1_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -763,7 +793,9 @@
             // 
             // ninja1_button
             // 
+            this.ninja1_button.Enabled = false;
             this.ninja1_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ninja1_button.ForeColor = System.Drawing.Color.White;
             this.ninja1_button.Image = ((System.Drawing.Image)(resources.GetObject("ninja1_button.Image")));
             this.ninja1_button.Location = new System.Drawing.Point(268, 12);
             this.ninja1_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -849,7 +881,7 @@
             // 
             // Exit_button
             // 
-            this.Exit_button.Location = new System.Drawing.Point(392, 449);
+            this.Exit_button.Location = new System.Drawing.Point(374, 572);
             this.Exit_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Exit_button.Name = "Exit_button";
             this.Exit_button.Size = new System.Drawing.Size(250, 24);
@@ -862,7 +894,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1226, 878);
+            this.ClientSize = new System.Drawing.Size(1036, 607);
             this.Controls.Add(this.progressBar18);
             this.Controls.Add(this.Exit_button);
             this.Controls.Add(this.halk2skill_button);
