@@ -101,6 +101,17 @@
             this.titan2skill_button = new System.Windows.Forms.Button();
             this.ninja2skill_button = new System.Windows.Forms.Button();
             this.Exit_button = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.ninja1sh_button = new System.Windows.Forms.Button();
+            this.ninja2sh_button = new System.Windows.Forms.Button();
+            this.titan2sh_button = new System.Windows.Forms.Button();
+            this.astronomer2sh_button = new System.Windows.Forms.Button();
+            this.sisadmin2sh_button = new System.Windows.Forms.Button();
+            this.halk2sh_button = new System.Windows.Forms.Button();
+            this.halk1sh_button = new System.Windows.Forms.Button();
+            this.sisadmin1sh_button = new System.Windows.Forms.Button();
+            this.astronomer1sh_button = new System.Windows.Forms.Button();
+            this.titan1sh_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // ninja1skill_button
@@ -108,7 +119,7 @@
             this.ninja1skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ninja1skill_button.ForeColor = System.Drawing.Color.Orange;
             this.ninja1skill_button.Image = ((System.Drawing.Image)(resources.GetObject("ninja1skill_button.Image")));
-            this.ninja1skill_button.Location = new System.Drawing.Point(374, 12);
+            this.ninja1skill_button.Location = new System.Drawing.Point(398, 11);
             this.ninja1skill_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ninja1skill_button.Name = "ninja1skill_button";
             this.ninja1skill_button.Size = new System.Drawing.Size(99, 63);
@@ -121,7 +132,7 @@
             // 
             this.titan1skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.titan1skill_button.Image = ((System.Drawing.Image)(resources.GetObject("titan1skill_button.Image")));
-            this.titan1skill_button.Location = new System.Drawing.Point(374, 94);
+            this.titan1skill_button.Location = new System.Drawing.Point(400, 94);
             this.titan1skill_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.titan1skill_button.Name = "titan1skill_button";
             this.titan1skill_button.Size = new System.Drawing.Size(99, 63);
@@ -135,7 +146,7 @@
             this.astronomer1skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.astronomer1skill_button.ForeColor = System.Drawing.Color.Yellow;
             this.astronomer1skill_button.Image = ((System.Drawing.Image)(resources.GetObject("astronomer1skill_button.Image")));
-            this.astronomer1skill_button.Location = new System.Drawing.Point(374, 183);
+            this.astronomer1skill_button.Location = new System.Drawing.Point(398, 182);
             this.astronomer1skill_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.astronomer1skill_button.Name = "astronomer1skill_button";
             this.astronomer1skill_button.Size = new System.Drawing.Size(99, 63);
@@ -149,7 +160,7 @@
             this.sisadmin1skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.sisadmin1skill_button.ForeColor = System.Drawing.SystemColors.ControlText;
             this.sisadmin1skill_button.Image = ((System.Drawing.Image)(resources.GetObject("sisadmin1skill_button.Image")));
-            this.sisadmin1skill_button.Location = new System.Drawing.Point(374, 275);
+            this.sisadmin1skill_button.Location = new System.Drawing.Point(400, 272);
             this.sisadmin1skill_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sisadmin1skill_button.Name = "sisadmin1skill_button";
             this.sisadmin1skill_button.Size = new System.Drawing.Size(97, 63);
@@ -163,7 +174,7 @@
             this.halk1skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.halk1skill_button.ForeColor = System.Drawing.Color.White;
             this.halk1skill_button.Image = ((System.Drawing.Image)(resources.GetObject("halk1skill_button.Image")));
-            this.halk1skill_button.Location = new System.Drawing.Point(376, 363);
+            this.halk1skill_button.Location = new System.Drawing.Point(400, 363);
             this.halk1skill_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.halk1skill_button.Name = "halk1skill_button";
             this.halk1skill_button.Size = new System.Drawing.Size(97, 63);
@@ -175,10 +186,10 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(34, 446);
+            this.listBox1.Location = new System.Drawing.Point(23, 444);
             this.listBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(820, 108);
+            this.listBox1.Size = new System.Drawing.Size(991, 108);
             this.listBox1.TabIndex = 5;
             // 
             // ninja2_button
@@ -202,7 +213,7 @@
             this.titan2_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.titan2_button.Enabled = false;
             this.titan2_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.titan2_button.Location = new System.Drawing.Point(671, 97);
+            this.titan2_button.Location = new System.Drawing.Point(670, 95);
             this.titan2_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.titan2_button.Name = "titan2_button";
             this.titan2_button.Size = new System.Drawing.Size(99, 61);
@@ -736,7 +747,7 @@
             this.halk1_button.Enabled = false;
             this.halk1_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.halk1_button.ForeColor = System.Drawing.Color.White;
-            this.halk1_button.Location = new System.Drawing.Point(270, 363);
+            this.halk1_button.Location = new System.Drawing.Point(268, 362);
             this.halk1_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.halk1_button.Name = "halk1_button";
             this.halk1_button.Size = new System.Drawing.Size(97, 63);
@@ -751,7 +762,7 @@
             this.sisadmin1_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.sisadmin1_button.Enabled = false;
             this.sisadmin1_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.sisadmin1_button.Location = new System.Drawing.Point(268, 276);
+            this.sisadmin1_button.Location = new System.Drawing.Point(268, 271);
             this.sisadmin1_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sisadmin1_button.Name = "sisadmin1_button";
             this.sisadmin1_button.Size = new System.Drawing.Size(96, 63);
@@ -767,7 +778,7 @@
             this.astronomer1_button.Enabled = false;
             this.astronomer1_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold);
             this.astronomer1_button.ForeColor = System.Drawing.Color.Red;
-            this.astronomer1_button.Location = new System.Drawing.Point(266, 183);
+            this.astronomer1_button.Location = new System.Drawing.Point(268, 181);
             this.astronomer1_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.astronomer1_button.Name = "astronomer1_button";
             this.astronomer1_button.Size = new System.Drawing.Size(99, 63);
@@ -812,7 +823,7 @@
             this.halk2skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.halk2skill_button.ForeColor = System.Drawing.Color.White;
             this.halk2skill_button.Image = ((System.Drawing.Image)(resources.GetObject("halk2skill_button.Image")));
-            this.halk2skill_button.Location = new System.Drawing.Point(566, 365);
+            this.halk2skill_button.Location = new System.Drawing.Point(542, 365);
             this.halk2skill_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.halk2skill_button.Name = "halk2skill_button";
             this.halk2skill_button.Size = new System.Drawing.Size(99, 61);
@@ -826,7 +837,7 @@
             this.sisadmin2skill_button.Enabled = false;
             this.sisadmin2skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.sisadmin2skill_button.Image = ((System.Drawing.Image)(resources.GetObject("sisadmin2skill_button.Image")));
-            this.sisadmin2skill_button.Location = new System.Drawing.Point(565, 272);
+            this.sisadmin2skill_button.Location = new System.Drawing.Point(542, 272);
             this.sisadmin2skill_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sisadmin2skill_button.Name = "sisadmin2skill_button";
             this.sisadmin2skill_button.Size = new System.Drawing.Size(99, 63);
@@ -841,7 +852,7 @@
             this.astronomer2skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.astronomer2skill_button.ForeColor = System.Drawing.Color.Yellow;
             this.astronomer2skill_button.Image = ((System.Drawing.Image)(resources.GetObject("astronomer2skill_button.Image")));
-            this.astronomer2skill_button.Location = new System.Drawing.Point(566, 180);
+            this.astronomer2skill_button.Location = new System.Drawing.Point(542, 180);
             this.astronomer2skill_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.astronomer2skill_button.Name = "astronomer2skill_button";
             this.astronomer2skill_button.Size = new System.Drawing.Size(99, 66);
@@ -855,7 +866,7 @@
             this.titan2skill_button.Enabled = false;
             this.titan2skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.titan2skill_button.Image = ((System.Drawing.Image)(resources.GetObject("titan2skill_button.Image")));
-            this.titan2skill_button.Location = new System.Drawing.Point(565, 97);
+            this.titan2skill_button.Location = new System.Drawing.Point(542, 95);
             this.titan2skill_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.titan2skill_button.Name = "titan2skill_button";
             this.titan2skill_button.Size = new System.Drawing.Size(99, 61);
@@ -870,7 +881,7 @@
             this.ninja2skill_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ninja2skill_button.ForeColor = System.Drawing.Color.Orange;
             this.ninja2skill_button.Image = ((System.Drawing.Image)(resources.GetObject("ninja2skill_button.Image")));
-            this.ninja2skill_button.Location = new System.Drawing.Point(565, 11);
+            this.ninja2skill_button.Location = new System.Drawing.Point(542, 11);
             this.ninja2skill_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ninja2skill_button.Name = "ninja2skill_button";
             this.ninja2skill_button.Size = new System.Drawing.Size(99, 63);
@@ -890,11 +901,140 @@
             this.Exit_button.UseVisualStyleBackColor = true;
             this.Exit_button.Click += new System.EventHandler(this.Exit_button_Click);
             // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(517, 11);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(10, 414);
+            this.label1.TabIndex = 71;
+            // 
+            // ninja1sh_button
+            // 
+            this.ninja1sh_button.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ninja1sh_button.Location = new System.Drawing.Point(371, 9);
+            this.ninja1sh_button.Name = "ninja1sh_button";
+            this.ninja1sh_button.Size = new System.Drawing.Size(21, 65);
+            this.ninja1sh_button.TabIndex = 72;
+            this.ninja1sh_button.Text = "shoot";
+            this.ninja1sh_button.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.ninja1sh_button.UseVisualStyleBackColor = true;
+            // 
+            // ninja2sh_button
+            // 
+            this.ninja2sh_button.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ninja2sh_button.Location = new System.Drawing.Point(647, 11);
+            this.ninja2sh_button.Name = "ninja2sh_button";
+            this.ninja2sh_button.Size = new System.Drawing.Size(21, 65);
+            this.ninja2sh_button.TabIndex = 73;
+            this.ninja2sh_button.Text = "shoot";
+            this.ninja2sh_button.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.ninja2sh_button.UseVisualStyleBackColor = true;
+            // 
+            // titan2sh_button
+            // 
+            this.titan2sh_button.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.titan2sh_button.Location = new System.Drawing.Point(647, 93);
+            this.titan2sh_button.Name = "titan2sh_button";
+            this.titan2sh_button.Size = new System.Drawing.Size(21, 65);
+            this.titan2sh_button.TabIndex = 74;
+            this.titan2sh_button.Text = "shoot";
+            this.titan2sh_button.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.titan2sh_button.UseVisualStyleBackColor = true;
+            // 
+            // astronomer2sh_button
+            // 
+            this.astronomer2sh_button.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.astronomer2sh_button.Location = new System.Drawing.Point(647, 180);
+            this.astronomer2sh_button.Name = "astronomer2sh_button";
+            this.astronomer2sh_button.Size = new System.Drawing.Size(21, 65);
+            this.astronomer2sh_button.TabIndex = 75;
+            this.astronomer2sh_button.Text = "shoot";
+            this.astronomer2sh_button.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.astronomer2sh_button.UseVisualStyleBackColor = true;
+            // 
+            // sisadmin2sh_button
+            // 
+            this.sisadmin2sh_button.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.sisadmin2sh_button.Location = new System.Drawing.Point(647, 271);
+            this.sisadmin2sh_button.Name = "sisadmin2sh_button";
+            this.sisadmin2sh_button.Size = new System.Drawing.Size(21, 65);
+            this.sisadmin2sh_button.TabIndex = 76;
+            this.sisadmin2sh_button.Text = "shoot";
+            this.sisadmin2sh_button.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.sisadmin2sh_button.UseVisualStyleBackColor = true;
+            // 
+            // halk2sh_button
+            // 
+            this.halk2sh_button.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.halk2sh_button.Location = new System.Drawing.Point(647, 363);
+            this.halk2sh_button.Name = "halk2sh_button";
+            this.halk2sh_button.Size = new System.Drawing.Size(21, 65);
+            this.halk2sh_button.TabIndex = 77;
+            this.halk2sh_button.Text = "shoot";
+            this.halk2sh_button.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.halk2sh_button.UseVisualStyleBackColor = true;
+            // 
+            // halk1sh_button
+            // 
+            this.halk1sh_button.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.halk1sh_button.Location = new System.Drawing.Point(371, 361);
+            this.halk1sh_button.Name = "halk1sh_button";
+            this.halk1sh_button.Size = new System.Drawing.Size(21, 65);
+            this.halk1sh_button.TabIndex = 78;
+            this.halk1sh_button.Text = "shoot";
+            this.halk1sh_button.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.halk1sh_button.UseVisualStyleBackColor = true;
+            // 
+            // sisadmin1sh_button
+            // 
+            this.sisadmin1sh_button.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.sisadmin1sh_button.Location = new System.Drawing.Point(371, 270);
+            this.sisadmin1sh_button.Name = "sisadmin1sh_button";
+            this.sisadmin1sh_button.Size = new System.Drawing.Size(21, 65);
+            this.sisadmin1sh_button.TabIndex = 79;
+            this.sisadmin1sh_button.Text = "shoot";
+            this.sisadmin1sh_button.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.sisadmin1sh_button.UseVisualStyleBackColor = true;
+            // 
+            // astronomer1sh_button
+            // 
+            this.astronomer1sh_button.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.astronomer1sh_button.Location = new System.Drawing.Point(371, 181);
+            this.astronomer1sh_button.Name = "astronomer1sh_button";
+            this.astronomer1sh_button.Size = new System.Drawing.Size(21, 65);
+            this.astronomer1sh_button.TabIndex = 80;
+            this.astronomer1sh_button.Text = "shoot";
+            this.astronomer1sh_button.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.astronomer1sh_button.UseVisualStyleBackColor = true;
+            // 
+            // titan1sh_button
+            // 
+            this.titan1sh_button.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.titan1sh_button.Location = new System.Drawing.Point(371, 93);
+            this.titan1sh_button.Name = "titan1sh_button";
+            this.titan1sh_button.Size = new System.Drawing.Size(21, 65);
+            this.titan1sh_button.TabIndex = 81;
+            this.titan1sh_button.Text = "shoot";
+            this.titan1sh_button.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.titan1sh_button.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1036, 607);
+            this.Controls.Add(this.titan1sh_button);
+            this.Controls.Add(this.astronomer1sh_button);
+            this.Controls.Add(this.sisadmin1sh_button);
+            this.Controls.Add(this.halk1sh_button);
+            this.Controls.Add(this.halk2sh_button);
+            this.Controls.Add(this.sisadmin2sh_button);
+            this.Controls.Add(this.astronomer2sh_button);
+            this.Controls.Add(this.titan2sh_button);
+            this.Controls.Add(this.ninja2sh_button);
+            this.Controls.Add(this.ninja1sh_button);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.progressBar18);
             this.Controls.Add(this.Exit_button);
             this.Controls.Add(this.halk2skill_button);
@@ -1052,6 +1192,17 @@
         private System.Windows.Forms.Button titan2skill_button;
         private System.Windows.Forms.Button ninja2skill_button;
         private System.Windows.Forms.Button Exit_button;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button ninja1sh_button;
+        private System.Windows.Forms.Button ninja2sh_button;
+        private System.Windows.Forms.Button titan2sh_button;
+        private System.Windows.Forms.Button astronomer2sh_button;
+        private System.Windows.Forms.Button sisadmin2sh_button;
+        private System.Windows.Forms.Button halk2sh_button;
+        private System.Windows.Forms.Button halk1sh_button;
+        private System.Windows.Forms.Button sisadmin1sh_button;
+        private System.Windows.Forms.Button astronomer1sh_button;
+        private System.Windows.Forms.Button titan1sh_button;
     }
 }
 
